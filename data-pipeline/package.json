@@ -1,0 +1,22 @@
+{
+  "name": "laadpalenviewer-data-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Generation pipeline: NDW OCPI + external freight + PDOK CBS boundaries -> static GeoJSON/JSON for the webapp",
+  "scripts": {
+    "generate": "tsx src/index.ts",
+    "generate:nocache": "tsx src/index.ts --refresh",
+    "snapshot": "tsx src/snapshot.ts"
+  },
+  "dependencies": {
+    "@turf/bbox": "^7.2.0",
+    "@turf/boolean-point-in-polygon": "^7.2.0",
+    "@turf/helpers": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.19.2",
+    "typescript": "^5"
+  }
+}

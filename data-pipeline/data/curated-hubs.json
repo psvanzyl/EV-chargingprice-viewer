@@ -1,0 +1,65 @@
+{
+  "_comment": "Hand-curated public heavy-duty / megawatt truck charging hubs in NL. Highest merge priority; never deduped away. Update as the network grows.",
+  "hubs": [
+    {
+      "id": "milence-venlo",
+      "name": "Milence Charging Hub Venlo",
+      "operatorName": "Milence",
+      "city": "Venlo",
+      "address": "Celsiusweg, Venlo",
+      "lat": 51.3942,
+      "lng": 6.1583,
+      "maxPowerKw": 400,
+      "isMegawatt": false,
+      "sourceUrl": "https://milence.com"
+    },
+    {
+      "id": "milence-zwolle",
+      "name": "Milence Charging Hub Zwolle",
+      "operatorName": "Milence",
+      "city": "Zwolle",
+      "address": "Hessenpoort, Zwolle",
+      "lat": 52.5331,
+      "lng": 6.1499,
+      "maxPowerKw": 1000,
+      "isMegawatt": true,
+      "sourceUrl": "https://milence.com"
+    },
+    {
+      "id": "milence-waddinxveen",
+      "name": "Milence Charging Hub Waddinxveen",
+      "operatorName": "Milence",
+      "city": "Waddinxveen",
+      "address": "Distripark Doelwijk (A12), Waddinxveen",
+      "lat": 52.0177,
+      "lng": 4.6199,
+      "maxPowerKw": 400,
+      "isMegawatt": false,
+      "sourceUrl": "https://milence.com/nl/press-release/milence-breidt-nederlands-netwerk-uit-in-het-hart-van-de-randstad-met-nieuwe-laadhub-in-waddinxveen/"
+    },
+    {
+      "id": "watthub-geldermalsen",
+      "name": "WattHub Geldermalsen",
+      "operatorName": "WattHub",
+      "city": "Meteren",
+      "address": "Rijnstraat, Meteren (Geldermalsen)",
+      "lat": 51.8806,
+      "lng": 5.2614,
+      "maxPowerKw": 400,
+      "isMegawatt": false,
+      "sourceUrl": "https://watthub.nl"
+    },
+    {
+      "id": "watthub-maasvlakte",
+      "name": "WattHub Maasvlakte (Port of Rotterdam)",
+      "operatorName": "WattHub",
+      "city": "Maasvlakte Rotterdam",
+      "address": "Maasvlakte, Rotterdam",
+      "lat": 51.9559,
+      "lng": 4.0289,
+      "maxPowerKw": 400,
+      "isMegawatt": false,
+      "sourceUrl": "https://watthub.nl"
+    }
+  ]
+}

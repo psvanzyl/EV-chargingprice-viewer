@@ -1,0 +1,2403 @@
+[
+  {
+    "name": "Nederland (totaal)",
+    "slug": "nederland",
+    "province": "Alle provincies",
+    "population": 17561268,
+    "code": null
+  },
+  {
+    "name": "Aa en Hunze",
+    "province": "Drenthe",
+    "population": 25453,
+    "slug": "aa-en-hunze",
+    "code": "GM1680"
+  },
+  {
+    "name": "Aalsmeer",
+    "province": "Noord-Holland",
+    "population": 31982,
+    "slug": "aalsmeer",
+    "code": "GM0358"
+  },
+  {
+    "name": "Aalten",
+    "province": "Gelderland",
+    "population": 27243,
+    "slug": "aalten",
+    "code": "GM0197"
+  },
+  {
+    "name": "Achtkarspelen",
+    "province": "Friesland",
+    "population": 27836,
+    "slug": "achtkarspelen",
+    "code": "GM0059"
+  },
+  {
+    "name": "Alblasserdam",
+    "province": "Zuid-Holland",
+    "population": 20383,
+    "slug": "alblasserdam",
+    "code": "GM0482"
+  },
+  {
+    "name": "Albrandswaard",
+    "province": "Zuid-Holland",
+    "population": 25798,
+    "slug": "albrandswaard",
+    "code": "GM0613"
+  },
+  {
+    "name": "Alkmaar",
+    "province": "Noord-Holland",
+    "population": 111766,
+    "slug": "alkmaar",
+    "code": "GM0361"
+  },
+  {
+    "name": "Almelo",
+    "province": "Overijssel",
+    "population": 72725,
+    "slug": "almelo",
+    "code": "GM0141"
+  },
+  {
+    "name": "Almere",
+    "province": "Flevoland",
+    "population": 218096,
+    "slug": "almere",
+    "code": "GM0034"
+  },
+  {
+    "name": "Alphen aan den Rijn",
+    "province": "Zuid-Holland",
+    "population": 112587,
+    "slug": "alphen-aan-den-rijn",
+    "code": "GM0484"
+  },
+  {
+    "name": "Alphen-Chaam",
+    "province": "Noord-Brabant",
+    "population": 10213,
+    "slug": "alphen-chaam",
+    "code": "GM1723"
+  },
+  {
+    "name": "Altena",
+    "province": "Noord-Brabant",
+    "population": 56890,
+    "slug": "altena",
+    "code": "GM1959"
+  },
+  {
+    "name": "Ameland",
+    "province": "Friesland",
+    "population": 3718,
+    "slug": "ameland",
+    "code": "GM0060"
+  },
+  {
+    "name": "Amersfoort",
+    "province": "Utrecht",
+    "population": 158782,
+    "slug": "amersfoort",
+    "code": "GM0307"
+  },
+  {
+    "name": "Amstelveen",
+    "province": "Noord-Holland",
+    "population": 92353,
+    "slug": "amstelveen",
+    "code": "GM0362"
+  },
+  {
+    "name": "Amsterdam",
+    "province": "Noord-Holland",
+    "population": 921402,
+    "slug": "amsterdam",
+    "code": "GM0363"
+  },
+  {
+    "name": "Apeldoorn",
+    "province": "Gelderland",
+    "population": 165525,
+    "slug": "apeldoorn",
+    "code": "GM0200"
+  },
+  {
+    "name": "Arnhem",
+    "province": "Gelderland",
+    "population": 164096,
+    "slug": "arnhem",
+    "code": "GM0202"
+  },
+  {
+    "name": "Assen",
+    "province": "Drenthe",
+    "population": 68606,
+    "slug": "assen",
+    "code": "GM0106"
+  },
+  {
+    "name": "Asten",
+    "province": "Noord-Brabant",
+    "population": 16841,
+    "slug": "asten",
+    "code": "GM0743"
+  },
+  {
+    "name": "Baarle-Nassau",
+    "province": "Noord-Brabant",
+    "population": 6860,
+    "slug": "baarle-nassau",
+    "code": "GM0744"
+  },
+  {
+    "name": "Baarn",
+    "province": "Utrecht",
+    "population": 24955,
+    "slug": "baarn",
+    "code": "GM0308"
+  },
+  {
+    "name": "Barendrecht",
+    "province": "Zuid-Holland",
+    "population": 48944,
+    "slug": "barendrecht",
+    "code": "GM0489"
+  },
+  {
+    "name": "Barneveld",
+    "province": "Gelderland",
+    "population": 60426,
+    "slug": "barneveld",
+    "code": "GM0203"
+  },
+  {
+    "name": "Beek",
+    "province": "Limburg",
+    "population": 15787,
+    "slug": "beek",
+    "code": "GM0888"
+  },
+  {
+    "name": "Beekdaelen",
+    "province": "Limburg",
+    "population": 35976,
+    "slug": "beekdaelen",
+    "code": "GM1954"
+  },
+  {
+    "name": "Beesel",
+    "province": "Limburg",
+    "population": 13431,
+    "slug": "beesel",
+    "code": "GM0889"
+  },
+  {
+    "name": "Berg en Dal",
+    "province": "Gelderland",
+    "population": 34990,
+    "slug": "berg-en-dal",
+    "code": "GM1945"
+  },
+  {
+    "name": "Bergeijk",
+    "province": "Noord-Brabant",
+    "population": 18639,
+    "slug": "bergeijk",
+    "code": "GM1724"
+  },
+  {
+    "name": "Bergen (L.)",
+    "province": "Limburg",
+    "population": 13042,
+    "slug": "bergen-(l.)",
+    "code": "GM0893"
+  },
+  {
+    "name": "Bergen (NH.)",
+    "province": "Noord-Holland",
+    "population": 29757,
+    "slug": "bergen-(nh.)",
+    "code": "GM0373"
+  },
+  {
+    "name": "Bergen op Zoom",
+    "province": "Noord-Brabant",
+    "population": 67489,
+    "slug": "bergen-op-zoom",
+    "code": "GM0748"
+  },
+  {
+    "name": "Berkelland",
+    "province": "Gelderland",
+    "population": 43555,
+    "slug": "berkelland",
+    "code": "GM1859"
+  },
+  {
+    "name": "Bernheze",
+    "province": "Noord-Brabant",
+    "population": 31651,
+    "slug": "bernheze",
+    "code": "GM1721"
+  },
+  {
+    "name": "Best",
+    "province": "Noord-Brabant",
+    "population": 29985,
+    "slug": "best",
+    "code": "GM0753"
+  },
+  {
+    "name": "Beuningen",
+    "province": "Gelderland",
+    "population": 25977,
+    "slug": "beuningen",
+    "code": "GM0209"
+  },
+  {
+    "name": "Beverwijk",
+    "province": "Noord-Holland",
+    "population": 42422,
+    "slug": "beverwijk",
+    "code": "GM0375"
+  },
+  {
+    "name": "Bladel",
+    "province": "Noord-Brabant",
+    "population": 20395,
+    "slug": "bladel",
+    "code": "GM1728"
+  },
+  {
+    "name": "Blaricum",
+    "province": "Noord-Holland",
+    "population": 11597,
+    "slug": "blaricum",
+    "code": "GM0376"
+  },
+  {
+    "name": "Bloemendaal",
+    "province": "Noord-Holland",
+    "population": 23570,
+    "slug": "bloemendaal",
+    "code": "GM0377"
+  },
+  {
+    "name": "Bodegraven-Reeuwijk",
+    "province": "Zuid-Holland",
+    "population": 35158,
+    "slug": "bodegraven-reeuwijk",
+    "code": "GM1901"
+  },
+  {
+    "name": "Boekel",
+    "province": "Noord-Brabant",
+    "population": 10958,
+    "slug": "boekel",
+    "code": "GM0755"
+  },
+  {
+    "name": "Borger-Odoorn",
+    "province": "Drenthe",
+    "population": 25268,
+    "slug": "borger-odoorn",
+    "code": "GM1681"
+  },
+  {
+    "name": "Borne",
+    "province": "Overijssel",
+    "population": 23341,
+    "slug": "borne",
+    "code": "GM0147"
+  },
+  {
+    "name": "Borsele",
+    "province": "Zeeland",
+    "population": 22792,
+    "slug": "borsele",
+    "code": "GM0654"
+  },
+  {
+    "name": "Boxtel",
+    "province": "Noord-Brabant",
+    "population": 33041,
+    "slug": "boxtel",
+    "code": "GM0757"
+  },
+  {
+    "name": "Breda",
+    "province": "Noord-Brabant",
+    "population": 184716,
+    "slug": "breda",
+    "code": "GM0758"
+  },
+  {
+    "name": "Bronckhorst",
+    "province": "Gelderland",
+    "population": 36010,
+    "slug": "bronckhorst",
+    "code": "GM1876"
+  },
+  {
+    "name": "Brummen",
+    "province": "Gelderland",
+    "population": 20756,
+    "slug": "brummen",
+    "code": "GM0213"
+  },
+  {
+    "name": "Brunssum",
+    "province": "Limburg",
+    "population": 27690,
+    "slug": "brunssum",
+    "code": "GM0899"
+  },
+  {
+    "name": "Bunnik",
+    "province": "Utrecht",
+    "population": 15395,
+    "slug": "bunnik",
+    "code": "GM0312"
+  },
+  {
+    "name": "Bunschoten",
+    "province": "Utrecht",
+    "population": 22270,
+    "slug": "bunschoten",
+    "code": "GM0313"
+  },
+  {
+    "name": "Buren",
+    "province": "Gelderland",
+    "population": 27060,
+    "slug": "buren",
+    "code": "GM0214"
+  },
+  {
+    "name": "Capelle aan den IJssel",
+    "province": "Zuid-Holland",
+    "population": 67319,
+    "slug": "capelle-aan-den-ijssel",
+    "code": "GM0502"
+  },
+  {
+    "name": "Castricum",
+    "province": "Noord-Holland",
+    "population": 36118,
+    "slug": "castricum",
+    "code": "GM0383"
+  },
+  {
+    "name": "Coevorden",
+    "province": "Drenthe",
+    "population": 35323,
+    "slug": "coevorden",
+    "code": "GM0109"
+  },
+  {
+    "name": "Cranendonck",
+    "province": "Noord-Brabant",
+    "population": 21326,
+    "slug": "cranendonck",
+    "code": "GM1706"
+  },
+  {
+    "name": "Culemborg",
+    "province": "Gelderland",
+    "population": 28956,
+    "slug": "culemborg",
+    "code": "GM0216"
+  },
+  {
+    "name": "Dalfsen",
+    "province": "Overijssel",
+    "population": 29027,
+    "slug": "dalfsen",
+    "code": "GM0148"
+  },
+  {
+    "name": "Dantumadiel",
+    "province": "Friesland",
+    "population": 18916,
+    "slug": "dantumadiel",
+    "code": "GM1891"
+  },
+  {
+    "name": "De Bilt",
+    "province": "Utrecht",
+    "population": 43716,
+    "slug": "de-bilt",
+    "code": "GM0310"
+  },
+  {
+    "name": "De Fryske Marren",
+    "province": "Friesland",
+    "population": 51720,
+    "slug": "de-fryske-marren",
+    "code": "GM1940"
+  },
+  {
+    "name": "De Ronde Venen",
+    "province": "Utrecht",
+    "population": 44698,
+    "slug": "de-ronde-venen",
+    "code": "GM0736"
+  },
+  {
+    "name": "De Wolden",
+    "province": "Drenthe",
+    "population": 24543,
+    "slug": "de-wolden",
+    "code": "GM1690"
+  },
+  {
+    "name": "Delft",
+    "province": "Zuid-Holland",
+    "population": 104762,
+    "slug": "delft",
+    "code": "GM0503"
+  },
+  {
+    "name": "Den Haag",
+    "province": "Zuid-Holland",
+    "population": 554329,
+    "slug": "den-haag",
+    "code": "GM0518"
+  },
+  {
+    "name": "Den Helder",
+    "province": "Noord-Holland",
+    "population": 56305,
+    "slug": "den-helder",
+    "code": "GM0400"
+  },
+  {
+    "name": "Deurne",
+    "province": "Noord-Brabant",
+    "population": 32718,
+    "slug": "deurne",
+    "code": "GM0762"
+  },
+  {
+    "name": "Deventer",
+    "province": "Overijssel",
+    "population": 101259,
+    "slug": "deventer",
+    "code": "GM0150"
+  },
+  {
+    "name": "Diemen",
+    "province": "Noord-Holland",
+    "population": 31384,
+    "slug": "diemen",
+    "code": "GM0384"
+  },
+  {
+    "name": "Dijk en Waard",
+    "province": "Noord-Holland",
+    "population": 86000,
+    "slug": "dijk-en-waard",
+    "code": "GM1980"
+  },
+  {
+    "name": "Dinkelland",
+    "province": "Overijssel",
+    "population": 26297,
+    "slug": "dinkelland",
+    "code": "GM1774"
+  },
+  {
+    "name": "Doesburg",
+    "province": "Gelderland",
+    "population": 11270,
+    "slug": "doesburg",
+    "code": "GM0221"
+  },
+  {
+    "name": "Doetinchem",
+    "province": "Gelderland",
+    "population": 58270,
+    "slug": "doetinchem",
+    "code": "GM0222"
+  },
+  {
+    "name": "Dongen",
+    "province": "Noord-Brabant",
+    "population": 26426,
+    "slug": "dongen",
+    "code": "GM0766"
+  },
+  {
+    "name": "Dordrecht",
+    "province": "Zuid-Holland",
+    "population": 119596,
+    "slug": "dordrecht",
+    "code": "GM0505"
+  },
+  {
+    "name": "Drechterland",
+    "province": "Noord-Holland",
+    "population": 19717,
+    "slug": "drechterland",
+    "code": "GM0498"
+  },
+  {
+    "name": "Drimmelen",
+    "province": "Noord-Brabant",
+    "population": 27786,
+    "slug": "drimmelen",
+    "code": "GM1719"
+  },
+  {
+    "name": "Dronten",
+    "province": "Flevoland",
+    "population": 41569,
+    "slug": "dronten",
+    "code": "GM0303"
+  },
+  {
+    "name": "Druten",
+    "province": "Gelderland",
+    "population": 19109,
+    "slug": "druten",
+    "code": "GM0225"
+  },
+  {
+    "name": "Duiven",
+    "province": "Gelderland",
+    "population": 25124,
+    "slug": "duiven",
+    "code": "GM0226"
+  },
+  {
+    "name": "Echt-Susteren",
+    "province": "Limburg",
+    "population": 32269,
+    "slug": "echt-susteren",
+    "code": "GM1711"
+  },
+  {
+    "name": "Edam-Volendam",
+    "province": "Noord-Holland",
+    "population": 36432,
+    "slug": "edam-volendam",
+    "code": "GM0385"
+  },
+  {
+    "name": "Ede",
+    "province": "Gelderland",
+    "population": 120125,
+    "slug": "ede",
+    "code": "GM0228"
+  },
+  {
+    "name": "Eemnes",
+    "province": "Utrecht",
+    "population": 9222,
+    "slug": "eemnes",
+    "code": "GM0317"
+  },
+  {
+    "name": "Eemsdelta",
+    "province": "Groningen",
+    "population": 46079,
+    "slug": "eemsdelta",
+    "code": "GM1979"
+  },
+  {
+    "name": "Eersel",
+    "province": "Noord-Brabant",
+    "population": 19319,
+    "slug": "eersel",
+    "code": "GM0770"
+  },
+  {
+    "name": "Eijsden-Margraten",
+    "province": "Limburg",
+    "population": 25753,
+    "slug": "eijsden-margraten",
+    "code": "GM1903"
+  },
+  {
+    "name": "Eindhoven",
+    "province": "Noord-Brabant",
+    "population": 238479,
+    "slug": "eindhoven",
+    "code": "GM0772"
+  },
+  {
+    "name": "Elburg",
+    "province": "Gelderland",
+    "population": 23419,
+    "slug": "elburg",
+    "code": "GM0230"
+  },
+  {
+    "name": "Emmen",
+    "province": "Drenthe",
+    "population": 107055,
+    "slug": "emmen",
+    "code": "GM0114"
+  },
+  {
+    "name": "Enkhuizen",
+    "province": "Noord-Holland",
+    "population": 18769,
+    "slug": "enkhuizen",
+    "code": "GM0388"
+  },
+  {
+    "name": "Enschede",
+    "province": "Overijssel",
+    "population": 160476,
+    "slug": "enschede",
+    "code": "GM0153"
+  },
+  {
+    "name": "Epe",
+    "province": "Gelderland",
+    "population": 33186,
+    "slug": "epe",
+    "code": "GM0232"
+  },
+  {
+    "name": "Ermelo",
+    "province": "Gelderland",
+    "population": 27413,
+    "slug": "ermelo",
+    "code": "GM0233"
+  },
+  {
+    "name": "Etten-Leur",
+    "province": "Noord-Brabant",
+    "population": 44301,
+    "slug": "etten-leur",
+    "code": "GM0777"
+  },
+  {
+    "name": "Geertruidenberg",
+    "province": "Noord-Brabant",
+    "population": 21949,
+    "slug": "geertruidenberg",
+    "code": "GM0779"
+  },
+  {
+    "name": "Geldrop-Mierlo",
+    "province": "Noord-Brabant",
+    "population": 40135,
+    "slug": "geldrop-mierlo",
+    "code": "GM1771"
+  },
+  {
+    "name": "Gemert-Bakel",
+    "province": "Noord-Brabant",
+    "population": 31053,
+    "slug": "gemert-bakel",
+    "code": "GM1652"
+  },
+  {
+    "name": "Gennep",
+    "province": "Limburg",
+    "population": 17071,
+    "slug": "gennep",
+    "code": "GM0907"
+  },
+  {
+    "name": "Gilze en Rijen",
+    "province": "Noord-Brabant",
+    "population": 26748,
+    "slug": "gilze-en-rijen",
+    "code": "GM0784"
+  },
+  {
+    "name": "Goeree-Overflakkee",
+    "province": "Zuid-Holland",
+    "population": 50049,
+    "slug": "goeree-overflakkee",
+    "code": "GM1924"
+  },
+  {
+    "name": "Goes",
+    "province": "Zeeland",
+    "population": 38151,
+    "slug": "goes",
+    "code": "GM0664"
+  },
+  {
+    "name": "Goirle",
+    "province": "Noord-Brabant",
+    "population": 24198,
+    "slug": "goirle",
+    "code": "GM0785"
+  },
+  {
+    "name": "Gooise Meren",
+    "province": "Noord-Holland",
+    "population": 59233,
+    "slug": "gooise-meren",
+    "code": "GM1942"
+  },
+  {
+    "name": "Gorinchem",
+    "province": "Zuid-Holland",
+    "population": 37209,
+    "slug": "gorinchem",
+    "code": "GM0512"
+  },
+  {
+    "name": "Gouda",
+    "province": "Zuid-Holland",
+    "population": 75000,
+    "slug": "gouda",
+    "code": "GM0513"
+  },
+  {
+    "name": "Groningen",
+    "province": "Groningen",
+    "population": 235763,
+    "slug": "groningen",
+    "code": "GM0014"
+  },
+  {
+    "name": "Gulpen-Wittem",
+    "province": "Limburg",
+    "population": 13988,
+    "slug": "gulpen-wittem",
+    "code": "GM1729"
+  },
+  {
+    "name": "Haaksbergen",
+    "province": "Overijssel",
+    "population": 24309,
+    "slug": "haaksbergen",
+    "code": "GM0158"
+  },
+  {
+    "name": "Haarlem",
+    "province": "Noord-Holland",
+    "population": 162543,
+    "slug": "haarlem",
+    "code": "GM0392"
+  },
+  {
+    "name": "Haarlemmermeer",
+    "province": "Noord-Holland",
+    "population": 156655,
+    "slug": "haarlemmermeer",
+    "code": "GM0394"
+  },
+  {
+    "name": "Halderberge",
+    "province": "Noord-Brabant",
+    "population": 30563,
+    "slug": "halderberge",
+    "code": "GM1655"
+  },
+  {
+    "name": "Hardenberg",
+    "province": "Overijssel",
+    "population": 60940,
+    "slug": "hardenberg",
+    "code": "GM0160"
+  },
+  {
+    "name": "Harderwijk",
+    "province": "Gelderland",
+    "population": 48982,
+    "slug": "harderwijk",
+    "code": "GM0243"
+  },
+  {
+    "name": "Hardinxveld-Giessendam",
+    "province": "Zuid-Holland",
+    "population": 18295,
+    "slug": "hardinxveld-giessendam",
+    "code": "GM0523"
+  },
+  {
+    "name": "Harlingen",
+    "province": "Friesland",
+    "population": 15986,
+    "slug": "harlingen",
+    "code": "GM0072"
+  },
+  {
+    "name": "Hattem",
+    "province": "Gelderland",
+    "population": 12414,
+    "slug": "hattem",
+    "code": "GM0244"
+  },
+  {
+    "name": "Heemskerk",
+    "province": "Noord-Holland",
+    "population": 39188,
+    "slug": "heemskerk",
+    "code": "GM0396"
+  },
+  {
+    "name": "Heemstede",
+    "province": "Noord-Holland",
+    "population": 27239,
+    "slug": "heemstede",
+    "code": "GM0397"
+  },
+  {
+    "name": "Heerde",
+    "province": "Gelderland",
+    "population": 18821,
+    "slug": "heerde",
+    "code": "GM0246"
+  },
+  {
+    "name": "Heerenveen",
+    "province": "Friesland",
+    "population": 50780,
+    "slug": "heerenveen",
+    "code": "GM0074"
+  },
+  {
+    "name": "Heerlen",
+    "province": "Limburg",
+    "population": 86762,
+    "slug": "heerlen",
+    "code": "GM0917"
+  },
+  {
+    "name": "Heeze-Leende",
+    "province": "Noord-Brabant",
+    "population": 16301,
+    "slug": "heeze-leende",
+    "code": "GM1658"
+  },
+  {
+    "name": "Heiloo",
+    "province": "Noord-Holland",
+    "population": 24014,
+    "slug": "heiloo",
+    "code": "GM0399"
+  },
+  {
+    "name": "Hellendoorn",
+    "province": "Overijssel",
+    "population": 35923,
+    "slug": "hellendoorn",
+    "code": "GM0163"
+  },
+  {
+    "name": "Helmond",
+    "province": "Noord-Brabant",
+    "population": 93903,
+    "slug": "helmond",
+    "code": "GM0794"
+  },
+  {
+    "name": "Hendrik-Ido-Ambacht",
+    "province": "Zuid-Holland",
+    "population": 31353,
+    "slug": "hendrik-ido-ambacht",
+    "code": "GM0531"
+  },
+  {
+    "name": "Hengelo",
+    "province": "Overijssel",
+    "population": 81140,
+    "slug": "hengelo",
+    "code": "GM0164"
+  },
+  {
+    "name": "Het Hogeland",
+    "province": "Groningen",
+    "population": 47834,
+    "slug": "het-hogeland",
+    "code": "GM1966"
+  },
+  {
+    "name": "Heumen",
+    "province": "Gelderland",
+    "population": 16684,
+    "slug": "heumen",
+    "code": "GM0252"
+  },
+  {
+    "name": "Heusden",
+    "province": "Noord-Brabant",
+    "population": 45116,
+    "slug": "heusden",
+    "code": "GM0797"
+  },
+  {
+    "name": "Hillegom",
+    "province": "Zuid-Holland",
+    "population": 22339,
+    "slug": "hillegom",
+    "code": "GM0534"
+  },
+  {
+    "name": "Hilvarenbeek",
+    "province": "Noord-Brabant",
+    "population": 15514,
+    "slug": "hilvarenbeek",
+    "code": "GM0798"
+  },
+  {
+    "name": "Hilversum",
+    "province": "Noord-Holland",
+    "population": 92761,
+    "slug": "hilversum",
+    "code": "GM0402"
+  },
+  {
+    "name": "Hoeksche Waard",
+    "province": "Zuid-Holland",
+    "population": 87461,
+    "slug": "hoeksche-waard",
+    "code": "GM1963"
+  },
+  {
+    "name": "Hof van Twente",
+    "province": "Overijssel",
+    "population": 35013,
+    "slug": "hof-van-twente",
+    "code": "GM1735"
+  },
+  {
+    "name": "Hollands Kroon",
+    "province": "Noord-Holland",
+    "population": 48434,
+    "slug": "hollands-kroon",
+    "code": "GM1911"
+  },
+  {
+    "name": "Hoogeveen",
+    "province": "Drenthe",
+    "population": 55697,
+    "slug": "hoogeveen",
+    "code": "GM0118"
+  },
+  {
+    "name": "Hoorn",
+    "province": "Noord-Holland",
+    "population": 74932,
+    "slug": "hoorn",
+    "code": "GM0405"
+  },
+  {
+    "name": "Horst aan de Maas",
+    "province": "Limburg",
+    "population": 42433,
+    "slug": "horst-aan-de-maas",
+    "code": "GM1507"
+  },
+  {
+    "name": "Houten",
+    "province": "Utrecht",
+    "population": 51177,
+    "slug": "houten",
+    "code": "GM0321"
+  },
+  {
+    "name": "Huizen",
+    "province": "Noord-Holland",
+    "population": 41462,
+    "slug": "huizen",
+    "code": "GM0406"
+  },
+  {
+    "name": "Hulst",
+    "province": "Zeeland",
+    "population": 27556,
+    "slug": "hulst",
+    "code": "GM0677"
+  },
+  {
+    "name": "IJsselstein",
+    "province": "Utrecht",
+    "population": 34110,
+    "slug": "ijsselstein",
+    "code": "GM0353"
+  },
+  {
+    "name": "Kaag en Braassem",
+    "province": "Zuid-Holland",
+    "population": 28050,
+    "slug": "kaag-en-braassem",
+    "code": "GM1884"
+  },
+  {
+    "name": "Kampen",
+    "province": "Overijssel",
+    "population": 55513,
+    "slug": "kampen",
+    "code": "GM0166"
+  },
+  {
+    "name": "Kapelle",
+    "province": "Zeeland",
+    "population": 12691,
+    "slug": "kapelle",
+    "code": "GM0678"
+  },
+  {
+    "name": "Katwijk",
+    "province": "Zuid-Holland",
+    "population": 66080,
+    "slug": "katwijk",
+    "code": "GM0537"
+  },
+  {
+    "name": "Kerkrade",
+    "province": "Limburg",
+    "population": 44444,
+    "slug": "kerkrade",
+    "code": "GM0928"
+  },
+  {
+    "name": "Koggenland",
+    "province": "Noord-Holland",
+    "population": 22814,
+    "slug": "koggenland",
+    "code": "GM1598"
+  },
+  {
+    "name": "Krimpen aan den IJssel",
+    "province": "Zuid-Holland",
+    "population": 29410,
+    "slug": "krimpen-aan-den-ijssel",
+    "code": "GM0542"
+  },
+  {
+    "name": "Krimpenerwaard",
+    "province": "Zuid-Holland",
+    "population": 56655,
+    "slug": "krimpenerwaard",
+    "code": "GM1931"
+  },
+  {
+    "name": "Laarbeek",
+    "province": "Noord-Brabant",
+    "population": 22626,
+    "slug": "laarbeek",
+    "code": "GM1659"
+  },
+  {
+    "name": "Land van Cuijk",
+    "province": "Noord-Brabant",
+    "population": 91000,
+    "slug": "land-van-cuijk",
+    "code": "GM1982"
+  },
+  {
+    "name": "Landgraaf",
+    "province": "Limburg",
+    "population": 36781,
+    "slug": "landgraaf",
+    "code": "GM0882"
+  },
+  {
+    "name": "Landsmeer",
+    "province": "Noord-Holland",
+    "population": 11662,
+    "slug": "landsmeer",
+    "code": "GM0415"
+  },
+  {
+    "name": "Lansingerland",
+    "province": "Zuid-Holland",
+    "population": 64614,
+    "slug": "lansingerland",
+    "code": "GM1621"
+  },
+  {
+    "name": "Laren",
+    "province": "Noord-Holland",
+    "population": 11433,
+    "slug": "laren",
+    "code": "GM0417"
+  },
+  {
+    "name": "Leeuwarden",
+    "province": "Friesland",
+    "population": 127627,
+    "slug": "leeuwarden",
+    "code": "GM0080"
+  },
+  {
+    "name": "Leiden",
+    "province": "Zuid-Holland",
+    "population": 127046,
+    "slug": "leiden",
+    "code": "GM0546"
+  },
+  {
+    "name": "Leiderdorp",
+    "province": "Zuid-Holland",
+    "population": 27424,
+    "slug": "leiderdorp",
+    "code": "GM0547"
+  },
+  {
+    "name": "Leidschendam-Voorburg",
+    "province": "Zuid-Holland",
+    "population": 76222,
+    "slug": "leidschendam-voorburg",
+    "code": "GM1916"
+  },
+  {
+    "name": "Lelystad",
+    "province": "Flevoland",
+    "population": 80562,
+    "slug": "lelystad",
+    "code": "GM0995"
+  },
+  {
+    "name": "Leudal",
+    "province": "Limburg",
+    "population": 35629,
+    "slug": "leudal",
+    "code": "GM1640"
+  },
+  {
+    "name": "Leusden",
+    "province": "Utrecht",
+    "population": 30718,
+    "slug": "leusden",
+    "code": "GM0327"
+  },
+  {
+    "name": "Lingewaard",
+    "province": "Gelderland",
+    "population": 46832,
+    "slug": "lingewaard",
+    "code": "GM1705"
+  },
+  {
+    "name": "Lisse",
+    "province": "Zuid-Holland",
+    "population": 23012,
+    "slug": "lisse",
+    "code": "GM0553"
+  },
+  {
+    "name": "Lochem",
+    "province": "Gelderland",
+    "population": 33730,
+    "slug": "lochem",
+    "code": "GM0262"
+  },
+  {
+    "name": "Loon op Zand",
+    "province": "Noord-Brabant",
+    "population": 23543,
+    "slug": "loon-op-zand",
+    "code": "GM0809"
+  },
+  {
+    "name": "Lopik",
+    "province": "Utrecht",
+    "population": 14313,
+    "slug": "lopik",
+    "code": "GM0331"
+  },
+  {
+    "name": "Losser",
+    "province": "Overijssel",
+    "population": 22555,
+    "slug": "losser",
+    "code": "GM0168"
+  },
+  {
+    "name": "Maasdriel",
+    "province": "Gelderland",
+    "population": 25234,
+    "slug": "maasdriel",
+    "code": "GM0263"
+  },
+  {
+    "name": "Maasgouw",
+    "province": "Limburg",
+    "population": 23960,
+    "slug": "maasgouw",
+    "code": "GM1641"
+  },
+  {
+    "name": "Maashorst",
+    "province": "Noord-Brabant",
+    "population": 57000,
+    "slug": "maashorst",
+    "code": "GM1991"
+  },
+  {
+    "name": "Maassluis",
+    "province": "Zuid-Holland",
+    "population": 33214,
+    "slug": "maassluis",
+    "code": "GM0556"
+  },
+  {
+    "name": "Maastricht",
+    "province": "Limburg",
+    "population": 121565,
+    "slug": "maastricht",
+    "code": "GM0935"
+  },
+  {
+    "name": "Medemblik",
+    "province": "Noord-Holland",
+    "population": 45159,
+    "slug": "medemblik",
+    "code": "GM0420"
+  },
+  {
+    "name": "Meerssen",
+    "province": "Limburg",
+    "population": 18655,
+    "slug": "meerssen",
+    "code": "GM0938"
+  },
+  {
+    "name": "Meierijstad",
+    "province": "Noord-Brabant",
+    "population": 83762,
+    "slug": "meierijstad",
+    "code": "GM1948"
+  },
+  {
+    "name": "Meppel",
+    "province": "Drenthe",
+    "population": 34064,
+    "slug": "meppel",
+    "code": "GM0119"
+  },
+  {
+    "name": "Middelburg",
+    "province": "Zeeland",
+    "population": 48721,
+    "slug": "middelburg",
+    "code": "GM0687"
+  },
+  {
+    "name": "Midden-Delfland",
+    "province": "Zuid-Holland",
+    "population": 19730,
+    "slug": "midden-delfland",
+    "code": "GM1842"
+  },
+  {
+    "name": "Midden-Drenthe",
+    "province": "Drenthe",
+    "population": 33209,
+    "slug": "midden-drenthe",
+    "code": "GM1731"
+  },
+  {
+    "name": "Midden-Groningen",
+    "province": "Groningen",
+    "population": 60804,
+    "slug": "midden-groningen",
+    "code": "GM1952"
+  },
+  {
+    "name": "Moerdijk",
+    "province": "Noord-Brabant",
+    "population": 37353,
+    "slug": "moerdijk",
+    "code": "GM1709"
+  },
+  {
+    "name": "Molenlanden",
+    "province": "Zuid-Holland",
+    "population": 44279,
+    "slug": "molenlanden",
+    "code": "GM1978"
+  },
+  {
+    "name": "Montferland",
+    "province": "Gelderland",
+    "population": 36301,
+    "slug": "montferland",
+    "code": "GM1955"
+  },
+  {
+    "name": "Montfoort",
+    "province": "Utrecht",
+    "population": 13920,
+    "slug": "montfoort",
+    "code": "GM0335"
+  },
+  {
+    "name": "Mook en Middelaar",
+    "province": "Limburg",
+    "population": 7823,
+    "slug": "mook-en-middelaar",
+    "code": "GM0944"
+  },
+  {
+    "name": "Neder-Betuwe",
+    "province": "Gelderland",
+    "population": 24885,
+    "slug": "neder-betuwe",
+    "code": "GM1740"
+  },
+  {
+    "name": "Nederweert",
+    "province": "Limburg",
+    "population": 17270,
+    "slug": "nederweert",
+    "code": "GM0946"
+  },
+  {
+    "name": "Nieuwegein",
+    "province": "Utrecht",
+    "population": 63847,
+    "slug": "nieuwegein",
+    "code": "GM0356"
+  },
+  {
+    "name": "Nieuwkoop",
+    "province": "Zuid-Holland",
+    "population": 29048,
+    "slug": "nieuwkoop",
+    "code": "GM0569"
+  },
+  {
+    "name": "Nijkerk",
+    "province": "Gelderland",
+    "population": 44163,
+    "slug": "nijkerk",
+    "code": "GM0267"
+  },
+  {
+    "name": "Nijmegen",
+    "province": "Gelderland",
+    "population": 179073,
+    "slug": "nijmegen",
+    "code": "GM0268"
+  },
+  {
+    "name": "Nissewaard",
+    "province": "Zuid-Holland",
+    "population": 85682,
+    "slug": "nissewaard",
+    "code": "GM1930"
+  },
+  {
+    "name": "Noardeast-Fryslân",
+    "province": "Friesland",
+    "population": 45533,
+    "slug": "noardeast-fryslan",
+    "code": "GM1970"
+  },
+  {
+    "name": "Noord-Beveland",
+    "province": "Zeeland",
+    "population": 7395,
+    "slug": "noord-beveland",
+    "code": "GM1695"
+  },
+  {
+    "name": "Noordenveld",
+    "province": "Drenthe",
+    "population": 31242,
+    "slug": "noordenveld",
+    "code": "GM1699"
+  },
+  {
+    "name": "Noordoostpolder",
+    "province": "Flevoland",
+    "population": 47262,
+    "slug": "noordoostpolder",
+    "code": "GM0171"
+  },
+  {
+    "name": "Noordwijk",
+    "province": "Zuid-Holland",
+    "population": 44062,
+    "slug": "noordwijk",
+    "code": "GM0575"
+  },
+  {
+    "name": "Nuenen",
+    "province": "Noord-Brabant",
+    "population": 23617,
+    "slug": "nuenen",
+    "code": "GM0820"
+  },
+  {
+    "name": "Nunspeet",
+    "province": "Gelderland",
+    "population": 27852,
+    "slug": "nunspeet",
+    "code": "GM0302"
+  },
+  {
+    "name": "Oegstgeest",
+    "province": "Zuid-Holland",
+    "population": 24843,
+    "slug": "oegstgeest",
+    "code": "GM0579"
+  },
+  {
+    "name": "Oirschot",
+    "province": "Noord-Brabant",
+    "population": 18936,
+    "slug": "oirschot",
+    "code": "GM0823"
+  },
+  {
+    "name": "Oisterwijk",
+    "province": "Noord-Brabant",
+    "population": 26429,
+    "slug": "oisterwijk",
+    "code": "GM0824"
+  },
+  {
+    "name": "Oldambt",
+    "province": "Groningen",
+    "population": 37990,
+    "slug": "oldambt",
+    "code": "GM1895"
+  },
+  {
+    "name": "Oldebroek",
+    "province": "Gelderland",
+    "population": 23820,
+    "slug": "oldebroek",
+    "code": "GM0269"
+  },
+  {
+    "name": "Oldenzaal",
+    "province": "Overijssel",
+    "population": 31990,
+    "slug": "oldenzaal",
+    "code": "GM0173"
+  },
+  {
+    "name": "Olst-Wijhe",
+    "province": "Overijssel",
+    "population": 18279,
+    "slug": "olst-wijhe",
+    "code": "GM1773"
+  },
+  {
+    "name": "Ommen",
+    "province": "Overijssel",
+    "population": 18182,
+    "slug": "ommen",
+    "code": "GM0175"
+  },
+  {
+    "name": "Oost Gelre",
+    "province": "Gelderland",
+    "population": 29557,
+    "slug": "oost-gelre",
+    "code": "GM1586"
+  },
+  {
+    "name": "Oosterhout",
+    "province": "Noord-Brabant",
+    "population": 56206,
+    "slug": "oosterhout",
+    "code": "GM0826"
+  },
+  {
+    "name": "Ooststellingwerf",
+    "province": "Friesland",
+    "population": 25472,
+    "slug": "ooststellingwerf",
+    "code": "GM0085"
+  },
+  {
+    "name": "Oostzaan",
+    "province": "Noord-Holland",
+    "population": 9891,
+    "slug": "oostzaan",
+    "code": "GM0431"
+  },
+  {
+    "name": "Opmeer",
+    "province": "Noord-Holland",
+    "population": 11837,
+    "slug": "opmeer",
+    "code": "GM0432"
+  },
+  {
+    "name": "Opsterland",
+    "province": "Friesland",
+    "population": 29742,
+    "slug": "opsterland",
+    "code": "GM0086"
+  },
+  {
+    "name": "Oss",
+    "province": "Noord-Brabant",
+    "population": 92994,
+    "slug": "oss",
+    "code": "GM0828"
+  },
+  {
+    "name": "Oude IJsselstreek",
+    "province": "Gelderland",
+    "population": 39371,
+    "slug": "oude-ijsselstreek",
+    "code": "GM1509"
+  },
+  {
+    "name": "Ouder-Amstel",
+    "province": "Noord-Holland",
+    "population": 14261,
+    "slug": "ouder-amstel",
+    "code": "GM0437"
+  },
+  {
+    "name": "Oudewater",
+    "province": "Utrecht",
+    "population": 10318,
+    "slug": "oudewater",
+    "code": "GM0589"
+  },
+  {
+    "name": "Overbetuwe",
+    "province": "Gelderland",
+    "population": 48640,
+    "slug": "overbetuwe",
+    "code": "GM1734"
+  },
+  {
+    "name": "Papendrecht",
+    "province": "Zuid-Holland",
+    "population": 32235,
+    "slug": "papendrecht",
+    "code": "GM0590"
+  },
+  {
+    "name": "Peel en Maas",
+    "province": "Limburg",
+    "population": 43420,
+    "slug": "peel-en-maas",
+    "code": "GM1894"
+  },
+  {
+    "name": "Pekela",
+    "province": "Groningen",
+    "population": 12199,
+    "slug": "pekela",
+    "code": "GM0765"
+  },
+  {
+    "name": "Pijnacker-Nootdorp",
+    "province": "Zuid-Holland",
+    "population": 56476,
+    "slug": "pijnacker-nootdorp",
+    "code": "GM1926"
+  },
+  {
+    "name": "Purmerend",
+    "province": "Noord-Holland",
+    "population": 83261,
+    "slug": "purmerend",
+    "code": "GM0439"
+  },
+  {
+    "name": "Putten",
+    "province": "Gelderland",
+    "population": 24664,
+    "slug": "putten",
+    "code": "GM0273"
+  },
+  {
+    "name": "Raalte",
+    "province": "Overijssel",
+    "population": 37943,
+    "slug": "raalte",
+    "code": "GM0177"
+  },
+  {
+    "name": "Reimerswaal",
+    "province": "Zeeland",
+    "population": 22637,
+    "slug": "reimerswaal",
+    "code": "GM0703"
+  },
+  {
+    "name": "Renkum",
+    "province": "Gelderland",
+    "population": 31328,
+    "slug": "renkum",
+    "code": "GM0274"
+  },
+  {
+    "name": "Renswoude",
+    "province": "Utrecht",
+    "population": 5510,
+    "slug": "renswoude",
+    "code": "GM0339"
+  },
+  {
+    "name": "Reusel-De Mierden",
+    "province": "Noord-Brabant",
+    "population": 13281,
+    "slug": "reusel-de-mierden",
+    "code": "GM1667"
+  },
+  {
+    "name": "Rheden",
+    "province": "Gelderland",
+    "population": 43740,
+    "slug": "rheden",
+    "code": "GM0275"
+  },
+  {
+    "name": "Rhenen",
+    "province": "Utrecht",
+    "population": 20260,
+    "slug": "rhenen",
+    "code": "GM0340"
+  },
+  {
+    "name": "Ridderkerk",
+    "province": "Zuid-Holland",
+    "population": 46204,
+    "slug": "ridderkerk",
+    "code": "GM0597"
+  },
+  {
+    "name": "Rijssen-Holten",
+    "province": "Overijssel",
+    "population": 38436,
+    "slug": "rijssen-holten",
+    "code": "GM1742"
+  },
+  {
+    "name": "Rijswijk",
+    "province": "Zuid-Holland",
+    "population": 55220,
+    "slug": "rijswijk",
+    "code": "GM0603"
+  },
+  {
+    "name": "Roerdalen",
+    "province": "Limburg",
+    "population": 20572,
+    "slug": "roerdalen",
+    "code": "GM1669"
+  },
+  {
+    "name": "Roermond",
+    "province": "Limburg",
+    "population": 58254,
+    "slug": "roermond",
+    "code": "GM0957"
+  },
+  {
+    "name": "Roosendaal",
+    "province": "Noord-Brabant",
+    "population": 77226,
+    "slug": "roosendaal",
+    "code": "GM1674"
+  },
+  {
+    "name": "Rotterdam",
+    "province": "Zuid-Holland",
+    "population": 664311,
+    "slug": "rotterdam",
+    "code": "GM0599"
+  },
+  {
+    "name": "Rozendaal",
+    "province": "Gelderland",
+    "population": 1698,
+    "slug": "rozendaal",
+    "code": "GM0277"
+  },
+  {
+    "name": "Rucphen",
+    "province": "Noord-Brabant",
+    "population": 22923,
+    "slug": "rucphen",
+    "code": "GM0840"
+  },
+  {
+    "name": "Schagen",
+    "province": "Noord-Holland",
+    "population": 46631,
+    "slug": "schagen",
+    "code": "GM0441"
+  },
+  {
+    "name": "Scherpenzeel",
+    "province": "Gelderland",
+    "population": 10152,
+    "slug": "scherpenzeel",
+    "code": "GM0279"
+  },
+  {
+    "name": "Schiedam",
+    "province": "Zuid-Holland",
+    "population": 78739,
+    "slug": "schiedam",
+    "code": "GM0606"
+  },
+  {
+    "name": "Schiermonnikoog",
+    "province": "Friesland",
+    "population": 936,
+    "slug": "schiermonnikoog",
+    "code": "GM0088"
+  },
+  {
+    "name": "Schouwen-Duiveland",
+    "province": "Zeeland",
+    "population": 33737,
+    "slug": "schouwen-duiveland",
+    "code": "GM1676"
+  },
+  {
+    "name": "Simpelveld",
+    "province": "Limburg",
+    "population": 10330,
+    "slug": "simpelveld",
+    "code": "GM0965"
+  },
+  {
+    "name": "Sint-Michielsgestel",
+    "province": "Noord-Brabant",
+    "population": 29398,
+    "slug": "sint-michielsgestel",
+    "code": "GM0845"
+  },
+  {
+    "name": "Sittard-Geleen",
+    "province": "Limburg",
+    "population": 91949,
+    "slug": "sittard-geleen",
+    "code": "GM1883"
+  },
+  {
+    "name": "Sliedrecht",
+    "province": "Zuid-Holland",
+    "population": 25698,
+    "slug": "sliedrecht",
+    "code": "GM0610"
+  },
+  {
+    "name": "Sluis",
+    "province": "Zeeland",
+    "population": 23217,
+    "slug": "sluis",
+    "code": "GM1714"
+  },
+  {
+    "name": "Smallingerland",
+    "province": "Friesland",
+    "population": 56299,
+    "slug": "smallingerland",
+    "code": "GM0090"
+  },
+  {
+    "name": "Soest",
+    "province": "Utrecht",
+    "population": 46932,
+    "slug": "soest",
+    "code": "GM0342"
+  },
+  {
+    "name": "Someren",
+    "province": "Noord-Brabant",
+    "population": 19466,
+    "slug": "someren",
+    "code": "GM0847"
+  },
+  {
+    "name": "Son en Breugel",
+    "province": "Noord-Brabant",
+    "population": 17321,
+    "slug": "son-en-breugel",
+    "code": "GM0848"
+  },
+  {
+    "name": "Stadskanaal",
+    "province": "Groningen",
+    "population": 31688,
+    "slug": "stadskanaal",
+    "code": "GM0037"
+  },
+  {
+    "name": "Staphorst",
+    "province": "Overijssel",
+    "population": 17194,
+    "slug": "staphorst",
+    "code": "GM0180"
+  },
+  {
+    "name": "Stede Broec",
+    "province": "Noord-Holland",
+    "population": 22102,
+    "slug": "stede-broec",
+    "code": "GM0532"
+  },
+  {
+    "name": "Steenbergen",
+    "province": "Noord-Brabant",
+    "population": 24816,
+    "slug": "steenbergen",
+    "code": "GM0851"
+  },
+  {
+    "name": "Steenwijkerland",
+    "province": "Overijssel",
+    "population": 44519,
+    "slug": "steenwijkerland",
+    "code": "GM1708"
+  },
+  {
+    "name": "Stein",
+    "province": "Limburg",
+    "population": 24726,
+    "slug": "stein",
+    "code": "GM0971"
+  },
+  {
+    "name": "Stichtse Vecht",
+    "province": "Utrecht",
+    "population": 65396,
+    "slug": "stichtse-vecht",
+    "code": "GM1904"
+  },
+  {
+    "name": "Súdwest-Fryslân",
+    "province": "Friesland",
+    "population": 89987,
+    "slug": "sudwest-fryslan",
+    "code": "GM1900"
+  },
+  {
+    "name": "Terneuzen",
+    "province": "Zeeland",
+    "population": 54438,
+    "slug": "terneuzen",
+    "code": "GM0715"
+  },
+  {
+    "name": "Terschelling",
+    "province": "Friesland",
+    "population": 4895,
+    "slug": "terschelling",
+    "code": "GM0093"
+  },
+  {
+    "name": "Texel",
+    "province": "Noord-Holland",
+    "population": 13573,
+    "slug": "texel",
+    "code": "GM0448"
+  },
+  {
+    "name": "Teylingen",
+    "province": "Zuid-Holland",
+    "population": 37733,
+    "slug": "teylingen",
+    "code": "GM1525"
+  },
+  {
+    "name": "Tholen",
+    "province": "Zeeland",
+    "population": 25758,
+    "slug": "tholen",
+    "code": "GM0716"
+  },
+  {
+    "name": "Tiel",
+    "province": "Gelderland",
+    "population": 42325,
+    "slug": "tiel",
+    "code": "GM0281"
+  },
+  {
+    "name": "Tilburg",
+    "province": "Noord-Brabant",
+    "population": 224702,
+    "slug": "tilburg",
+    "code": "GM0855"
+  },
+  {
+    "name": "Tubbergen",
+    "province": "Overijssel",
+    "population": 21279,
+    "slug": "tubbergen",
+    "code": "GM0183"
+  },
+  {
+    "name": "Twenterand",
+    "province": "Overijssel",
+    "population": 33743,
+    "slug": "twenterand",
+    "code": "GM1700"
+  },
+  {
+    "name": "Tynaarlo",
+    "province": "Drenthe",
+    "population": 33879,
+    "slug": "tynaarlo",
+    "code": "GM1730"
+  },
+  {
+    "name": "Tytsjerksteradiel",
+    "province": "Friesland",
+    "population": 31857,
+    "slug": "tytsjerksteradiel",
+    "code": "GM0737"
+  },
+  {
+    "name": "Uitgeest",
+    "province": "Noord-Holland",
+    "population": 13845,
+    "slug": "uitgeest",
+    "code": "GM0450"
+  },
+  {
+    "name": "Uithoorn",
+    "province": "Noord-Holland",
+    "population": 30138,
+    "slug": "uithoorn",
+    "code": "GM0451"
+  },
+  {
+    "name": "Urk",
+    "province": "Flevoland",
+    "population": 21776,
+    "slug": "urk",
+    "code": "GM0184"
+  },
+  {
+    "name": "Utrecht",
+    "province": "Utrecht",
+    "population": 367984,
+    "slug": "utrecht",
+    "code": "GM0344"
+  },
+  {
+    "name": "Utrechtse Heuvelrug",
+    "province": "Utrecht",
+    "population": 50226,
+    "slug": "utrechtse-heuvelrug",
+    "code": "GM1581"
+  },
+  {
+    "name": "Vaals",
+    "province": "Limburg",
+    "population": 10099,
+    "slug": "vaals",
+    "code": "GM0981"
+  },
+  {
+    "name": "Valkenburg aan de Geul",
+    "province": "Limburg",
+    "population": 16360,
+    "slug": "valkenburg-aan-de-geul",
+    "code": "GM0994"
+  },
+  {
+    "name": "Valkenswaard",
+    "province": "Noord-Brabant",
+    "population": 31385,
+    "slug": "valkenswaard",
+    "code": "GM0858"
+  },
+  {
+    "name": "Veendam",
+    "province": "Groningen",
+    "population": 27387,
+    "slug": "veendam",
+    "code": "GM0047"
+  },
+  {
+    "name": "Veenendaal",
+    "province": "Utrecht",
+    "population": 67682,
+    "slug": "veenendaal",
+    "code": "GM0345"
+  },
+  {
+    "name": "Veere",
+    "province": "Zeeland",
+    "population": 22000,
+    "slug": "veere",
+    "code": "GM0717"
+  },
+  {
+    "name": "Veldhoven",
+    "province": "Noord-Brabant",
+    "population": 45779,
+    "slug": "veldhoven",
+    "code": "GM0861"
+  },
+  {
+    "name": "Velsen",
+    "province": "Noord-Holland",
+    "population": 68660,
+    "slug": "velsen",
+    "code": "GM0453"
+  },
+  {
+    "name": "Venlo",
+    "province": "Limburg",
+    "population": 101797,
+    "slug": "venlo",
+    "code": "GM0983"
+  },
+  {
+    "name": "Venray",
+    "province": "Limburg",
+    "population": 43604,
+    "slug": "venray",
+    "code": "GM0984"
+  },
+  {
+    "name": "Vijfheerenlanden",
+    "province": "Utrecht",
+    "population": 58488,
+    "slug": "vijfheerenlanden",
+    "code": "GM1961"
+  },
+  {
+    "name": "Vlaardingen",
+    "province": "Zuid-Holland",
+    "population": 73798,
+    "slug": "vlaardingen",
+    "code": "GM0622"
+  },
+  {
+    "name": "Vlieland",
+    "province": "Friesland",
+    "population": 1152,
+    "slug": "vlieland",
+    "code": "GM0096"
+  },
+  {
+    "name": "Vlissingen",
+    "province": "Zeeland",
+    "population": 44365,
+    "slug": "vlissingen",
+    "code": "GM0718"
+  },
+  {
+    "name": "Voerendaal",
+    "province": "Limburg",
+    "population": 12448,
+    "slug": "voerendaal",
+    "code": "GM0986"
+  },
+  {
+    "name": "Voorne aan Zee",
+    "province": "Zuid-Holland",
+    "population": 73311,
+    "slug": "voorne-aan-zee",
+    "code": "GM1992"
+  },
+  {
+    "name": "Voorschoten",
+    "province": "Zuid-Holland",
+    "population": 25873,
+    "slug": "voorschoten",
+    "code": "GM0626"
+  },
+  {
+    "name": "Voorst",
+    "province": "Gelderland",
+    "population": 24549,
+    "slug": "voorst",
+    "code": "GM0285"
+  },
+  {
+    "name": "Vught",
+    "province": "Noord-Brabant",
+    "population": 26797,
+    "slug": "vught",
+    "code": "GM0865"
+  },
+  {
+    "name": "Waadhoeke",
+    "province": "Friesland",
+    "population": 46079,
+    "slug": "waadhoeke",
+    "code": "GM1949"
+  },
+  {
+    "name": "Waalre",
+    "province": "Noord-Brabant",
+    "population": 17454,
+    "slug": "waalre",
+    "code": "GM0866"
+  },
+  {
+    "name": "Waalwijk",
+    "province": "Noord-Brabant",
+    "population": 48815,
+    "slug": "waalwijk",
+    "code": "GM0867"
+  },
+  {
+    "name": "Waddinxveen",
+    "province": "Zuid-Holland",
+    "population": 29293,
+    "slug": "waddinxveen",
+    "code": "GM0627"
+  },
+  {
+    "name": "Wageningen",
+    "province": "Gelderland",
+    "population": 39673,
+    "slug": "wageningen",
+    "code": "GM0289"
+  },
+  {
+    "name": "Wassenaar",
+    "province": "Zuid-Holland",
+    "population": 26305,
+    "slug": "wassenaar",
+    "code": "GM0629"
+  },
+  {
+    "name": "Waterland",
+    "province": "Noord-Holland",
+    "population": 17630,
+    "slug": "waterland",
+    "code": "GM0852"
+  },
+  {
+    "name": "Weert",
+    "province": "Limburg",
+    "population": 50107,
+    "slug": "weert",
+    "code": "GM0988"
+  },
+  {
+    "name": "West Betuwe",
+    "province": "Gelderland",
+    "population": 51825,
+    "slug": "west-betuwe",
+    "code": "GM1960"
+  },
+  {
+    "name": "West Maas en Waal",
+    "province": "Gelderland",
+    "population": 19459,
+    "slug": "west-maas-en-waal",
+    "code": "GM0668"
+  },
+  {
+    "name": "Westerkwartier",
+    "province": "Groningen",
+    "population": 63773,
+    "slug": "westerkwartier",
+    "code": "GM1969"
+  },
+  {
+    "name": "Westerveld",
+    "province": "Drenthe",
+    "population": 19460,
+    "slug": "westerveld",
+    "code": "GM1701"
+  },
+  {
+    "name": "Westervoort",
+    "province": "Gelderland",
+    "population": 14973,
+    "slug": "westervoort",
+    "code": "GM0293"
+  },
+  {
+    "name": "Westerwolde",
+    "province": "Groningen",
+    "population": 25796,
+    "slug": "westerwolde",
+    "code": "GM1950"
+  },
+  {
+    "name": "Westland",
+    "province": "Zuid-Holland",
+    "population": 113120,
+    "slug": "westland",
+    "code": "GM1783"
+  },
+  {
+    "name": "Weststellingwerf",
+    "province": "Friesland",
+    "population": 25753,
+    "slug": "weststellingwerf",
+    "code": "GM0098"
+  },
+  {
+    "name": "Wierden",
+    "province": "Overijssel",
+    "population": 24440,
+    "slug": "wierden",
+    "code": "GM0189"
+  },
+  {
+    "name": "Wijchen",
+    "province": "Gelderland",
+    "population": 41329,
+    "slug": "wijchen",
+    "code": "GM0296"
+  },
+  {
+    "name": "Wijdemeren",
+    "province": "Noord-Holland",
+    "population": 24569,
+    "slug": "wijdemeren",
+    "code": "GM1696"
+  },
+  {
+    "name": "Wijk bij Duurstede",
+    "province": "Utrecht",
+    "population": 24093,
+    "slug": "wijk-bij-duurstede",
+    "code": "GM0352"
+  },
+  {
+    "name": "Winterswijk",
+    "province": "Gelderland",
+    "population": 28603,
+    "slug": "winterswijk",
+    "code": "GM0294"
+  },
+  {
+    "name": "Woensdrecht",
+    "province": "Noord-Brabant",
+    "population": 21883,
+    "slug": "woensdrecht",
+    "code": "GM0873"
+  },
+  {
+    "name": "Woerden",
+    "province": "Utrecht",
+    "population": 53246,
+    "slug": "woerden",
+    "code": "GM0632"
+  },
+  {
+    "name": "Wormerland",
+    "province": "Noord-Holland",
+    "population": 16384,
+    "slug": "wormerland",
+    "code": "GM0880"
+  },
+  {
+    "name": "Woudenberg",
+    "province": "Utrecht",
+    "population": 13473,
+    "slug": "woudenberg",
+    "code": "GM0351"
+  },
+  {
+    "name": "Zaanstad",
+    "province": "Noord-Holland",
+    "population": 157945,
+    "slug": "zaanstad",
+    "code": "GM0479"
+  },
+  {
+    "name": "Zaltbommel",
+    "province": "Gelderland",
+    "population": 28901,
+    "slug": "zaltbommel",
+    "code": "GM0297"
+  },
+  {
+    "name": "Zandvoort",
+    "province": "Noord-Holland",
+    "population": 17116,
+    "slug": "zandvoort",
+    "code": "GM0473"
+  },
+  {
+    "name": "Zeewolde",
+    "province": "Flevoland",
+    "population": 22656,
+    "slug": "zeewolde",
+    "code": "GM0050"
+  },
+  {
+    "name": "Zeist",
+    "province": "Utrecht",
+    "population": 65948,
+    "slug": "zeist",
+    "code": "GM0355"
+  },
+  {
+    "name": "Zevenaar",
+    "province": "Gelderland",
+    "population": 43740,
+    "slug": "zevenaar",
+    "code": "GM0299"
+  },
+  {
+    "name": "Zoetermeer",
+    "province": "Zuid-Holland",
+    "population": 126998,
+    "slug": "zoetermeer",
+    "code": "GM0637"
+  },
+  {
+    "name": "Zoeterwoude",
+    "province": "Zuid-Holland",
+    "population": 8767,
+    "slug": "zoeterwoude",
+    "code": "GM0638"
+  },
+  {
+    "name": "Zuidplas",
+    "province": "Zuid-Holland",
+    "population": 44105,
+    "slug": "zuidplas",
+    "code": "GM1892"
+  },
+  {
+    "name": "Zundert",
+    "province": "Noord-Brabant",
+    "population": 22046,
+    "slug": "zundert",
+    "code": "GM0879"
+  },
+  {
+    "name": "Zutphen",
+    "province": "Gelderland",
+    "population": 48111,
+    "slug": "zutphen",
+    "code": "GM0301"
+  },
+  {
+    "name": "Zwartewaterland",
+    "province": "Overijssel",
+    "population": 23065,
+    "slug": "zwartewaterland",
+    "code": "GM1896"
+  },
+  {
+    "name": "Zwijndrecht",
+    "province": "Zuid-Holland",
+    "population": 44838,
+    "slug": "zwijndrecht",
+    "code": "GM0642"
+  },
+  {
+    "name": "Zwolle",
+    "province": "Overijssel",
+    "population": 130592,
+    "slug": "zwolle",
+    "code": "GM0193"
+  },
+  {
+    "name": "s-Hertogenbosch",
+    "province": "Noord-Brabant",
+    "population": 157502,
+    "slug": "s-hertogenbosch",
+    "code": "GM0796"
+  }
+]
