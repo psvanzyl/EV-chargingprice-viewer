@@ -141,6 +141,10 @@ export interface LightLocation {
   priceKwh?: number; // cheapest currently-applicable €/kWh across this location's connectors
   freightKind?: FreightKind;
   freightReason?: FreightReason;
+  // Fuel-specific payload (source === 'fuel'): full price map + metadata.
+  fuel?: Record<string, number>;
+  fuelPostal?: string;
+  fuelUpdated?: string;
 }
 
 // Normalized external freight location (from sources/*).
@@ -160,6 +164,10 @@ export interface NormalizedFreightLocation {
   priceKwh?: number;
   freightKind?: FreightKind;
   freightReason?: FreightReason;
+  // Fuel-specific payload (source === 'fuel'): full price map + metadata.
+  fuel?: Record<string, number>;
+  fuelPostal?: string;
+  fuelUpdated?: string;
 }
 
 // Full enriched location detail ("with details"), stored in per-gemeente bundles.

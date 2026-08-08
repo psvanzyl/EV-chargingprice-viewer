@@ -1,6 +1,6 @@
 "use client";
 
-import type { Filters } from "@/types/charging";
+import type { Filters, FuelType } from "@/types/charging";
 import { LEGEND } from "@/lib/colors";
 import InfoTip from "@/components/InfoTip";
 
@@ -9,11 +9,22 @@ interface FilterPanelProps {
   onChange: (f: Filters) => void;
   passengerCount: number;
   freightCount: number;
+  fuelCount: number;
 }
 
 const POWER_STEPS = [0, 50, 150, 350, 1000];
 
-export default function FilterPanel({ filters, onChange, passengerCount, freightCount }: FilterPanelProps) {
+const FUEL_TYPES: { key: FuelType; label: string }[] = [
+  { key: "euro95", label: "Euro95" },
+  { key: "e10", label: "E10" },
+  { key: "plus98", label: "Plus98" },
+  { key: "super", label: "Super" },
+  { key: "diesel", label: "Diesel" },
+  { key: "lpg", label: "LPG" },
+  { key: "cng", label: "CNG" },
+];
+
+export default function FilterPanel({ filters, onChange, passengerCount, freightCount, fuelCount }: FilterPanelProps) {
   const set = (patch: Partial<Filters>) => onChange({ ...filters, ...patch });
 
   return (
@@ -73,6 +84,41 @@ export default function FilterPanel({ filters, onChange, passengerCount, freight
               </InfoTip>
             </span>
           </label>
+        )}
+
+        <label className="flex items-center justify-between gap-2 cursor-pointer">
+          <span className="flex items-center gap-2 text-sm text-gray-800">
+            <input
+              type="checkbox"
+              checked={filters.showFuel}
+              onChange={(e) => set({ showFuel: e.target.checked })}
+              className="w-4 h-4 accent-teal-600"
+            />
+            <span className="w-3 h-3 rounded-full" style={{ background: LEGEND.fuel }} />
+            Brandstof (tankstations)
+          </span>
+          <span className="text-xs text-gray-500 tabular-nums">{fuelCount.toLocaleString("nl-NL")}</span>
+        </label>
+
+        {filters.showFuel && (
+          <div className="pl-6">
+            <div className="text-xs font-medium text-gray-600 mb-1">Toon prijs voor</div>
+            <div className="flex flex-wrap gap-1">
+              {FUEL_TYPES.map((ft) => (
+                <button
+                  key={ft.key}
+                  onClick={() => set({ fuelType: ft.key })}
+                  className={`px-2 py-1 text-xs rounded transition ${
+                    filters.fuelType === ft.key
+                      ? "bg-teal-600 text-white"
+                      : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                  }`}
+                >
+                  {ft.label}
+                </button>
+              ))}
+            </div>
+          </div>
         )}
 
         <label className="flex items-center gap-2 cursor-pointer">

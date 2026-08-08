@@ -1,26 +1,26 @@
-# Laadpalenviewer
+# EV Charging Price Viewer
 
-Interactieve kaart van laadpunten in Nederland, met twee lagen:
+Interactieve kaart van **actuele laadprijzen (€/kWh)** en **brandstofprijzen (€/L)** in Nederland.
 
-- **Personenauto** — alle publiek toegankelijke laadpunten (NDW DOT-NL OCPI), gekleurd op
-  OCPI-status (beschikbaar / bezet / niet beschikbaar / onbekend).
-- **Logistiek / vracht** — zware-voertuig- en megawatt-laadpunten (Milence, WattHub, MCS,
-  DC ≥ 350 kW), samengevoegd uit NDW-classificatie + externe bronnen.
+- **Laadpunten** — alle publiek toegankelijke laadpunten (NDW DOT-NL OCPI), met het actuele
+  energietarief (€/kWh) per connector, gekleurd op OCPI-status of op prijs.
+- **Brandstof** — Nederlandse tankstations met actuele prijzen (Euro95, E10, Plus98, Super, Diesel,
+  LPG, CNG) van Brandstofprijzen.nl, gegeocodeerd via OpenStreetMap/Nominatim.
 
-Plus gemeente- en provinciegrenzen (PDOK/CBS) en een per-gemeente "uitsnede" zoals de
-Pakketpuntenviewer. Op landelijk niveau laden alle punten zonder details; bij het kiezen van
-een gemeente worden alle details (laadpunten, connectoren, tarieven) direct geladen.
+Plus gemeente- en provinciegrenzen (PDOK/CBS) en een per-gemeente "uitsnede". Op landelijk niveau
+laden alle punten zonder details; bij het kiezen van een gemeente worden alle details direct geladen.
 
 ## Structuur
 
 ```
 data-pipeline/   Node/TS generatiestap -> schrijft statische JSON/GeoJSON naar webapp/public/data
-webapp/          Next.js 16 + React 19 + deck.gl + MapLibre (statisch te hosten, bv. Vercel)
+webapp/          Next.js 16 + React 19 + deck.gl + MapLibre (statisch te hosten, bv. Coolify)
 ```
 
 ## Databronnen
 
 - NDW OCPI: `https://opendata.ndw.nu/charging_point_locations_ocpi.json.gz` (+ tariffs)
+- Brandstofprijzen.nl: `https://www.brandstofprijzen.nl/tanks.php` (crowdsourced €/L)
 - PDOK CBS Gebiedsindelingen WFS (gemeente_gegeneraliseerd / provincie_gegeneraliseerd)
 - Open Charge Map API (vrije `OCM_API_KEY`), EAFO (optionele statische export), curated hubs
 
@@ -51,8 +51,8 @@ npm run dev      # http://localhost:3000
 npm run build    # statische productiebuild (roept de pipeline NIET aan)
 ```
 
-## Classificatie afstellen
+## Deploy (Coolify)
 
-De vracht/personenauto-grens staat in één constante: `data-pipeline/src/classifyFreight.ts`
-(`THRESHOLDS`). Verlaag `FREIGHT_DC_WATTS` voor meer recall, verhoog voor meer precisie.
-Bekende truckhubs staan in `data-pipeline/data/curated-hubs.json`.
+De webapp is een statische Next.js build. De `Dockerfile` bouwt de webapp en serveert via
+`next start`. De data-pipeline draait als een aparte stap (lokaal of via CI) en schrijft de
+statische data naar `webapp/public/` vóór de build.

@@ -14,6 +14,10 @@ export const FREIGHT: RGBA = [245, 158, 11, 235]; // amber-500
 export const FREIGHT_MEGAWATT: RGBA = [234, 88, 12, 245]; // orange-600
 export const FREIGHT_HPC: RGBA = [252, 211, 77, 220]; // amber-300
 
+// Fuel stations: teal/cyan so they read as a distinct third layer.
+export const FUEL: RGBA = [20, 184, 166, 235]; // teal-500
+export const FUEL_DARK: RGBA = [13, 148, 136, 245]; // teal-600
+
 export const BOUNDARY_LINE: RGBA = [79, 70, 229, 200]; // indigo-600
 
 export function statusColor(status: AggregateStatus): RGBA {
@@ -43,5 +47,6 @@ export const LEGEND = {
   freight: "#f59e0b",
   freightMegawatt: "#ea580c",
   freightHpc: "#fcd34d",
+  fuel: "#14b8a6",
   boundary: "#4f46e5",
 };

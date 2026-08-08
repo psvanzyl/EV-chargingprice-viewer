@@ -14,6 +14,7 @@ export default function StatsPanel({ gemeente, chargeFeatures }: StatsPanelProps
   const stats = useMemo(() => {
     let passenger = 0;
     let freight = 0;
+    let fuel = 0;
     let freightDedicated = 0;
     let megawatt = 0;
     let available = 0;
@@ -22,6 +23,10 @@ export default function StatsPanel({ gemeente, chargeFeatures }: StatsPanelProps
     const operators = new Map<string, number>();
     for (const f of chargeFeatures) {
       const p = f.properties;
+      if (p.source === "fuel") {
+        fuel++;
+        continue;
+      }
       if (p.layer === "freight") {
         freight++;
         if (p.freightKind !== "hpc") freightDedicated++;
@@ -36,7 +41,7 @@ export default function StatsPanel({ gemeente, chargeFeatures }: StatsPanelProps
       if (p.operatorName) operators.set(p.operatorName, (operators.get(p.operatorName) ?? 0) + 1);
     }
     const topOperators = [...operators.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5);
-    return { passenger, freight, freightDedicated, megawatt, available, charging, unavailable, topOperators };
+    return { passenger, freight, fuel, freightDedicated, megawatt, available, charging, unavailable, topOperators };
   }, [chargeFeatures]);
 
   return (
@@ -63,6 +68,12 @@ export default function StatsPanel({ gemeente, chargeFeatures }: StatsPanelProps
               zijn ingericht.
             </InfoTip>
           </div>
+        </div>
+        <div className="bg-teal-50 rounded-lg p-2">
+          <div className="text-xl font-bold text-teal-700 tabular-nums">
+            {stats.fuel.toLocaleString("nl-NL")}
+          </div>
+          <div className="text-xs text-teal-900">Brandstof (tankstations)</div>
         </div>
       </div>
 

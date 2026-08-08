@@ -8,7 +8,7 @@ import type { PickingInfo } from "@deck.gl/core";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { ChargeFeature, BoundaryFeature, Filters } from "@/types/charging";
 import type { ChoroplethData, MetricMeta } from "@/types/analysis";
-import { statusColor, freightColor, BOUNDARY_LINE, LEGEND, type RGBA } from "@/lib/colors";
+import { statusColor, freightColor, FUEL, BOUNDARY_LINE, LEGEND, type RGBA } from "@/lib/colors";
 import { rampColor, rampCss, robustDomain, NODATA } from "@/lib/ramp";
 
 interface MapDeckProps {
@@ -102,17 +102,22 @@ export default function MapDeck({
   }, []);
 
   // Split + power-filter the charge features once.
-  const { passenger, freight } = useMemo(() => {
+  const { passenger, freight, fuel } = useMemo(() => {
     const p: ChargeFeature[] = [];
     const f: ChargeFeature[] = [];
+    const fu: ChargeFeature[] = [];
     for (const feat of chargeFeatures) {
       if (feat.properties.maxPowerKw < filters.minPowerKw) continue;
+      if (feat.properties.source === "fuel") {
+        fu.push(feat);
+        continue;
+      }
       if (feat.properties.layer === "freight") {
         if (filters.dedicatedFreightOnly && feat.properties.freightKind === "hpc") continue;
         f.push(feat);
       } else p.push(feat);
     }
-    return { passenger: p, freight: f };
+    return { passenger: p, freight: f, fuel: fu };
   }, [chargeFeatures, filters.minPowerKw, filters.dedicatedFreightOnly]);
 
   const handleHover = useCallback((info: PickingInfo<ChargeFeature>) => {
@@ -242,13 +247,30 @@ export default function MapDeck({
       );
     }
 
+    if (filters.showFuel && fuel.length) {
+      result.push(
+        new ScatterplotLayer<ChargeFeature>({
+          ...scatterCommon,
+          id: "fuel",
+          data: fuel,
+          radiusMinPixels: 4,
+          radiusMaxPixels: 12,
+          getRadius: (d) => (d.properties.locationId === selectedLocationId ? 13 : 6),
+          getFillColor: FUEL as RGBA,
+          updateTriggers: { getRadius: [selectedLocationId] },
+        }),
+      );
+    }
+
     return result;
   }, [
     passenger,
     freight,
+    fuel,
     boundaryFeatures,
     filters.showPassenger,
     filters.showFreight,
+    filters.showFuel,
     filters.showBoundary,
     selectedLocationId,
     handleHover,
@@ -349,6 +371,18 @@ export default function MapDeck({
               {typeof hovered.properties.priceKwh === "number" && (
                 <div className="text-xs mt-1 text-gray-700">
                   Tarief: <span className="font-medium">{fmtPrice(hovered.properties.priceKwh)}</span> / kWh
+                </div>
+              )}
+              {hovered.properties.fuel && (
+                <div className="text-xs mt-1 text-gray-700">
+                  <div className="font-medium">Brandstof (€/L)</div>
+                  <div className="flex flex-wrap gap-x-2">
+                    {Object.entries(hovered.properties.fuel).map(([k, v]) => (
+                      <span key={k}>
+                        {k}: <span className="font-medium">{v.toFixed(3)}</span>
+                      </span>
+                    ))}
+                  </div>
                 </div>
               )}
               <div className="text-xs text-blue-600 mt-1">Klik voor details</div>
@@ -454,6 +488,11 @@ export default function MapDeck({
             <span>Megawatt charging (MCS)</span>
           </div>
           <div className="text-gray-400">rand = status (groen/blauw/rood)</div>
+        </div>
+        <div className="font-semibold mt-2 mb-1">Brandstof</div>
+        <div className="flex items-center gap-2">
+          <span className="w-3 h-3 rounded-full" style={{ background: LEGEND.fuel }} />
+          <span>Tankstation (€/L)</span>
         </div>
       </div>
       )}

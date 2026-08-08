@@ -1,0 +1,3089 @@
+[
+  {
+    "name": "Nederland (totaal)",
+    "slug": "nederland",
+    "province": "Alle provincies",
+    "population": 17561268,
+    "code": null,
+    "passengerCount": 58795,
+    "freightCount": 232
+  },
+  {
+    "name": "'s-Gravenhage",
+    "slug": "s-gravenhage",
+    "province": "Zuid-Holland",
+    "population": 554329,
+    "code": "GM0518",
+    "passengerCount": 3478,
+    "freightCount": 5
+  },
+  {
+    "name": "'s-Hertogenbosch",
+    "slug": "s-hertogenbosch",
+    "province": "Noord-Brabant",
+    "population": 157502,
+    "code": "GM0796",
+    "passengerCount": 968,
+    "freightCount": 1
+  },
+  {
+    "name": "Aa en Hunze",
+    "slug": "aa-en-hunze",
+    "province": "Drenthe",
+    "population": 25453,
+    "code": "GM1680",
+    "passengerCount": 54,
+    "freightCount": 1
+  },
+  {
+    "name": "Aalsmeer",
+    "slug": "aalsmeer",
+    "province": "Noord-Holland",
+    "population": 31982,
+    "code": "GM0358",
+    "passengerCount": 140,
+    "freightCount": 2
+  },
+  {
+    "name": "Aalten",
+    "slug": "aalten",
+    "province": "Gelderland",
+    "population": 27243,
+    "code": "GM0197",
+    "passengerCount": 84,
+    "freightCount": 0
+  },
+  {
+    "name": "Achtkarspelen",
+    "slug": "achtkarspelen",
+    "province": "Friesland",
+    "population": 27836,
+    "code": "GM0059",
+    "passengerCount": 44,
+    "freightCount": 0
+  },
+  {
+    "name": "Alblasserdam",
+    "slug": "alblasserdam",
+    "province": "Zuid-Holland",
+    "population": 20383,
+    "code": "GM0482",
+    "passengerCount": 89,
+    "freightCount": 0
+  },
+  {
+    "name": "Albrandswaard",
+    "slug": "albrandswaard",
+    "province": "Zuid-Holland",
+    "population": 25798,
+    "code": "GM0613",
+    "passengerCount": 56,
+    "freightCount": 1
+  },
+  {
+    "name": "Alkmaar",
+    "slug": "alkmaar",
+    "province": "Noord-Holland",
+    "population": 111766,
+    "code": "GM0361",
+    "passengerCount": 572,
+    "freightCount": 4
+  },
+  {
+    "name": "Almelo",
+    "slug": "almelo",
+    "province": "Overijssel",
+    "population": 72725,
+    "code": "GM0141",
+    "passengerCount": 208,
+    "freightCount": 1
+  },
+  {
+    "name": "Almere",
+    "slug": "almere",
+    "province": "Flevoland",
+    "population": 218096,
+    "code": "GM0034",
+    "passengerCount": 1300,
+    "freightCount": 0
+  },
+  {
+    "name": "Alphen aan den Rijn",
+    "slug": "alphen-aan-den-rijn",
+    "province": "Zuid-Holland",
+    "population": 112587,
+    "code": "GM0484",
+    "passengerCount": 478,
+    "freightCount": 1
+  },
+  {
+    "name": "Alphen-Chaam",
+    "slug": "alphen-chaam",
+    "province": "Noord-Brabant",
+    "population": 10213,
+    "code": "GM1723",
+    "passengerCount": 43,
+    "freightCount": 0
+  },
+  {
+    "name": "Altena",
+    "slug": "altena",
+    "province": "Noord-Brabant",
+    "population": 56890,
+    "code": "GM1959",
+    "passengerCount": 95,
+    "freightCount": 0
+  },
+  {
+    "name": "Ameland",
+    "slug": "ameland",
+    "province": "Friesland",
+    "population": 3718,
+    "code": "GM0060",
+    "passengerCount": 25,
+    "freightCount": 0
+  },
+  {
+    "name": "Amersfoort",
+    "slug": "amersfoort",
+    "province": "Utrecht",
+    "population": 158782,
+    "code": "GM0307",
+    "passengerCount": 427,
+    "freightCount": 3
+  },
+  {
+    "name": "Amstelveen",
+    "slug": "amstelveen",
+    "province": "Noord-Holland",
+    "population": 92353,
+    "code": "GM0362",
+    "passengerCount": 395,
+    "freightCount": 0
+  },
+  {
+    "name": "Amsterdam",
+    "slug": "amsterdam",
+    "province": "Noord-Holland",
+    "population": 921402,
+    "code": "GM0363",
+    "passengerCount": 1928,
+    "freightCount": 7
+  },
+  {
+    "name": "Apeldoorn",
+    "slug": "apeldoorn",
+    "province": "Gelderland",
+    "population": 165525,
+    "code": "GM0200",
+    "passengerCount": 575,
+    "freightCount": 2
+  },
+  {
+    "name": "Arnhem",
+    "slug": "arnhem",
+    "province": "Gelderland",
+    "population": 164096,
+    "code": "GM0202",
+    "passengerCount": 716,
+    "freightCount": 3
+  },
+  {
+    "name": "Assen",
+    "slug": "assen",
+    "province": "Drenthe",
+    "population": 68606,
+    "code": "GM0106",
+    "passengerCount": 126,
+    "freightCount": 2
+  },
+  {
+    "name": "Asten",
+    "slug": "asten",
+    "province": "Noord-Brabant",
+    "population": 16841,
+    "code": "GM0743",
+    "passengerCount": 46,
+    "freightCount": 2
+  },
+  {
+    "name": "Baarle-Nassau",
+    "slug": "baarle-nassau",
+    "province": "Noord-Brabant",
+    "population": 6860,
+    "code": "GM0744",
+    "passengerCount": 23,
+    "freightCount": 0
+  },
+  {
+    "name": "Baarn",
+    "slug": "baarn",
+    "province": "Utrecht",
+    "population": 24955,
+    "code": "GM0308",
+    "passengerCount": 94,
+    "freightCount": 0
+  },
+  {
+    "name": "Barendrecht",
+    "slug": "barendrecht",
+    "province": "Zuid-Holland",
+    "population": 48944,
+    "code": "GM0489",
+    "passengerCount": 139,
+    "freightCount": 2
+  },
+  {
+    "name": "Barneveld",
+    "slug": "barneveld",
+    "province": "Gelderland",
+    "population": 60426,
+    "code": "GM0203",
+    "passengerCount": 329,
+    "freightCount": 4
+  },
+  {
+    "name": "Beek (L.)",
+    "slug": "beek-l",
+    "province": "Limburg",
+    "population": 15787,
+    "code": "GM0888",
+    "passengerCount": 63,
+    "freightCount": 1
+  },
+  {
+    "name": "Beekdaelen",
+    "slug": "beekdaelen",
+    "province": "Limburg",
+    "population": 35976,
+    "code": "GM1954",
+    "passengerCount": 98,
+    "freightCount": 0
+  },
+  {
+    "name": "Beesel",
+    "slug": "beesel",
+    "province": "Limburg",
+    "population": 13431,
+    "code": "GM0889",
+    "passengerCount": 39,
+    "freightCount": 0
+  },
+  {
+    "name": "Berg en Dal",
+    "slug": "berg-en-dal",
+    "province": "Gelderland",
+    "population": 34990,
+    "code": "GM1945",
+    "passengerCount": 94,
+    "freightCount": 0
+  },
+  {
+    "name": "Bergeijk",
+    "slug": "bergeijk",
+    "province": "Noord-Brabant",
+    "population": 18639,
+    "code": "GM1724",
+    "passengerCount": 65,
+    "freightCount": 0
+  },
+  {
+    "name": "Bergen (L.)",
+    "slug": "bergen-l",
+    "province": "Limburg",
+    "population": 13042,
+    "code": "GM0893",
+    "passengerCount": 68,
+    "freightCount": 0
+  },
+  {
+    "name": "Bergen (NH.)",
+    "slug": "bergen-nh",
+    "province": "Noord-Holland",
+    "population": 29757,
+    "code": "GM0373",
+    "passengerCount": 184,
+    "freightCount": 0
+  },
+  {
+    "name": "Bergen op Zoom",
+    "slug": "bergen-op-zoom",
+    "province": "Noord-Brabant",
+    "population": 67489,
+    "code": "GM0748",
+    "passengerCount": 332,
+    "freightCount": 0
+  },
+  {
+    "name": "Berkelland",
+    "slug": "berkelland",
+    "province": "Gelderland",
+    "population": 43555,
+    "code": "GM1859",
+    "passengerCount": 84,
+    "freightCount": 0
+  },
+  {
+    "name": "Bernheze",
+    "slug": "bernheze",
+    "province": "Noord-Brabant",
+    "population": 31651,
+    "code": "GM1721",
+    "passengerCount": 106,
+    "freightCount": 1
+  },
+  {
+    "name": "Best",
+    "slug": "best",
+    "province": "Noord-Brabant",
+    "population": 29985,
+    "code": "GM0753",
+    "passengerCount": 135,
+    "freightCount": 1
+  },
+  {
+    "name": "Beuningen",
+    "slug": "beuningen",
+    "province": "Gelderland",
+    "population": 25977,
+    "code": "GM0209",
+    "passengerCount": 99,
+    "freightCount": 0
+  },
+  {
+    "name": "Beverwijk",
+    "slug": "beverwijk",
+    "province": "Noord-Holland",
+    "population": 42422,
+    "code": "GM0375",
+    "passengerCount": 154,
+    "freightCount": 0
+  },
+  {
+    "name": "Bladel",
+    "slug": "bladel",
+    "province": "Noord-Brabant",
+    "population": 20395,
+    "code": "GM1728",
+    "passengerCount": 73,
+    "freightCount": 0
+  },
+  {
+    "name": "Blaricum",
+    "slug": "blaricum",
+    "province": "Noord-Holland",
+    "population": 11597,
+    "code": "GM0376",
+    "passengerCount": 43,
+    "freightCount": 0
+  },
+  {
+    "name": "Bloemendaal",
+    "slug": "bloemendaal",
+    "province": "Noord-Holland",
+    "population": 23570,
+    "code": "GM0377",
+    "passengerCount": 100,
+    "freightCount": 0
+  },
+  {
+    "name": "Bodegraven-Reeuwijk",
+    "slug": "bodegraven-reeuwijk",
+    "province": "Zuid-Holland",
+    "population": 35158,
+    "code": "GM1901",
+    "passengerCount": 99,
+    "freightCount": 2
+  },
+  {
+    "name": "Boekel",
+    "slug": "boekel",
+    "province": "Noord-Brabant",
+    "population": 10958,
+    "code": "GM0755",
+    "passengerCount": 27,
+    "freightCount": 0
+  },
+  {
+    "name": "Borger-Odoorn",
+    "slug": "borger-odoorn",
+    "province": "Drenthe",
+    "population": 25268,
+    "code": "GM1681",
+    "passengerCount": 45,
+    "freightCount": 0
+  },
+  {
+    "name": "Borne",
+    "slug": "borne",
+    "province": "Overijssel",
+    "population": 23341,
+    "code": "GM0147",
+    "passengerCount": 99,
+    "freightCount": 0
+  },
+  {
+    "name": "Borsele",
+    "slug": "borsele",
+    "province": "Zeeland",
+    "population": 22792,
+    "code": "GM0654",
+    "passengerCount": 33,
+    "freightCount": 1
+  },
+  {
+    "name": "Boxtel",
+    "slug": "boxtel",
+    "province": "Noord-Brabant",
+    "population": 33041,
+    "code": "GM0757",
+    "passengerCount": 120,
+    "freightCount": 0
+  },
+  {
+    "name": "Breda",
+    "slug": "breda",
+    "province": "Noord-Brabant",
+    "population": 184716,
+    "code": "GM0758",
+    "passengerCount": 1120,
+    "freightCount": 6
+  },
+  {
+    "name": "Bronckhorst",
+    "slug": "bronckhorst",
+    "province": "Gelderland",
+    "population": 36010,
+    "code": "GM1876",
+    "passengerCount": 100,
+    "freightCount": 0
+  },
+  {
+    "name": "Brummen",
+    "slug": "brummen",
+    "province": "Gelderland",
+    "population": 20756,
+    "code": "GM0213",
+    "passengerCount": 104,
+    "freightCount": 0
+  },
+  {
+    "name": "Brunssum",
+    "slug": "brunssum",
+    "province": "Limburg",
+    "population": 27690,
+    "code": "GM0899",
+    "passengerCount": 76,
+    "freightCount": 0
+  },
+  {
+    "name": "Bunnik",
+    "slug": "bunnik",
+    "province": "Utrecht",
+    "population": 15395,
+    "code": "GM0312",
+    "passengerCount": 67,
+    "freightCount": 1
+  },
+  {
+    "name": "Bunschoten",
+    "slug": "bunschoten",
+    "province": "Utrecht",
+    "population": 22270,
+    "code": "GM0313",
+    "passengerCount": 82,
+    "freightCount": 0
+  },
+  {
+    "name": "Buren",
+    "slug": "buren",
+    "province": "Gelderland",
+    "population": 27060,
+    "code": "GM0214",
+    "passengerCount": 94,
+    "freightCount": 0
+  },
+  {
+    "name": "Capelle aan den IJssel",
+    "slug": "capelle-aan-den-ijssel",
+    "province": "Zuid-Holland",
+    "population": 67319,
+    "code": "GM0502",
+    "passengerCount": 71,
+    "freightCount": 2
+  },
+  {
+    "name": "Castricum",
+    "slug": "castricum",
+    "province": "Noord-Holland",
+    "population": 36118,
+    "code": "GM0383",
+    "passengerCount": 183,
+    "freightCount": 0
+  },
+  {
+    "name": "Coevorden",
+    "slug": "coevorden",
+    "province": "Drenthe",
+    "population": 35323,
+    "code": "GM0109",
+    "passengerCount": 74,
+    "freightCount": 0
+  },
+  {
+    "name": "Cranendonck",
+    "slug": "cranendonck",
+    "province": "Noord-Brabant",
+    "population": 21326,
+    "code": "GM1706",
+    "passengerCount": 42,
+    "freightCount": 1
+  },
+  {
+    "name": "Culemborg",
+    "slug": "culemborg",
+    "province": "Gelderland",
+    "population": 28956,
+    "code": "GM0216",
+    "passengerCount": 139,
+    "freightCount": 0
+  },
+  {
+    "name": "Dalfsen",
+    "slug": "dalfsen",
+    "province": "Overijssel",
+    "population": 29027,
+    "code": "GM0148",
+    "passengerCount": 83,
+    "freightCount": 1
+  },
+  {
+    "name": "Dantumadiel",
+    "slug": "dantumadiel",
+    "province": "Friesland",
+    "population": 18916,
+    "code": "GM1891",
+    "passengerCount": 16,
+    "freightCount": 0
+  },
+  {
+    "name": "De Bilt",
+    "slug": "de-bilt",
+    "province": "Utrecht",
+    "population": 43716,
+    "code": "GM0310",
+    "passengerCount": 185,
+    "freightCount": 0
+  },
+  {
+    "name": "De Fryske Marren",
+    "slug": "de-fryske-marren",
+    "province": "Friesland",
+    "population": 51720,
+    "code": "GM1940",
+    "passengerCount": 154,
+    "freightCount": 1
+  },
+  {
+    "name": "De Ronde Venen",
+    "slug": "de-ronde-venen",
+    "province": "Utrecht",
+    "population": 44698,
+    "code": "GM0736",
+    "passengerCount": 167,
+    "freightCount": 0
+  },
+  {
+    "name": "De Wolden",
+    "slug": "de-wolden",
+    "province": "Drenthe",
+    "population": 24543,
+    "code": "GM1690",
+    "passengerCount": 45,
+    "freightCount": 2
+  },
+  {
+    "name": "Delft",
+    "slug": "delft",
+    "province": "Zuid-Holland",
+    "population": 104762,
+    "code": "GM0503",
+    "passengerCount": 43,
+    "freightCount": 1
+  },
+  {
+    "name": "Den Helder",
+    "slug": "den-helder",
+    "province": "Noord-Holland",
+    "population": 56305,
+    "code": "GM0400",
+    "passengerCount": 138,
+    "freightCount": 0
+  },
+  {
+    "name": "Deurne",
+    "slug": "deurne",
+    "province": "Noord-Brabant",
+    "population": 32718,
+    "code": "GM0762",
+    "passengerCount": 129,
+    "freightCount": 0
+  },
+  {
+    "name": "Deventer",
+    "slug": "deventer",
+    "province": "Overijssel",
+    "population": 101259,
+    "code": "GM0150",
+    "passengerCount": 397,
+    "freightCount": 2
+  },
+  {
+    "name": "Diemen",
+    "slug": "diemen",
+    "province": "Noord-Holland",
+    "population": 31384,
+    "code": "GM0384",
+    "passengerCount": 167,
+    "freightCount": 0
+  },
+  {
+    "name": "Dijk en Waard",
+    "slug": "dijk-en-waard",
+    "province": "Noord-Holland",
+    "population": 86000,
+    "code": "GM1980",
+    "passengerCount": 375,
+    "freightCount": 1
+  },
+  {
+    "name": "Dinkelland",
+    "slug": "dinkelland",
+    "province": "Overijssel",
+    "population": 26297,
+    "code": "GM1774",
+    "passengerCount": 78,
+    "freightCount": 0
+  },
+  {
+    "name": "Doesburg",
+    "slug": "doesburg",
+    "province": "Gelderland",
+    "population": 11270,
+    "code": "GM0221",
+    "passengerCount": 46,
+    "freightCount": 0
+  },
+  {
+    "name": "Doetinchem",
+    "slug": "doetinchem",
+    "province": "Gelderland",
+    "population": 58270,
+    "code": "GM0222",
+    "passengerCount": 205,
+    "freightCount": 1
+  },
+  {
+    "name": "Dongen",
+    "slug": "dongen",
+    "province": "Noord-Brabant",
+    "population": 26426,
+    "code": "GM0766",
+    "passengerCount": 102,
+    "freightCount": 0
+  },
+  {
+    "name": "Dordrecht",
+    "slug": "dordrecht",
+    "province": "Zuid-Holland",
+    "population": 119596,
+    "code": "GM0505",
+    "passengerCount": 571,
+    "freightCount": 1
+  },
+  {
+    "name": "Drechterland",
+    "slug": "drechterland",
+    "province": "Noord-Holland",
+    "population": 19717,
+    "code": "GM0498",
+    "passengerCount": 47,
+    "freightCount": 0
+  },
+  {
+    "name": "Drimmelen",
+    "slug": "drimmelen",
+    "province": "Noord-Brabant",
+    "population": 27786,
+    "code": "GM1719",
+    "passengerCount": 154,
+    "freightCount": 0
+  },
+  {
+    "name": "Dronten",
+    "slug": "dronten",
+    "province": "Flevoland",
+    "population": 41569,
+    "code": "GM0303",
+    "passengerCount": 139,
+    "freightCount": 0
+  },
+  {
+    "name": "Druten",
+    "slug": "druten",
+    "province": "Gelderland",
+    "population": 19109,
+    "code": "GM0225",
+    "passengerCount": 71,
+    "freightCount": 0
+  },
+  {
+    "name": "Duiven",
+    "slug": "duiven",
+    "province": "Gelderland",
+    "population": 25124,
+    "code": "GM0226",
+    "passengerCount": 63,
+    "freightCount": 1
+  },
+  {
+    "name": "Echt-Susteren",
+    "slug": "echt-susteren",
+    "province": "Limburg",
+    "population": 32269,
+    "code": "GM1711",
+    "passengerCount": 112,
+    "freightCount": 0
+  },
+  {
+    "name": "Edam-Volendam",
+    "slug": "edam-volendam",
+    "province": "Noord-Holland",
+    "population": 36432,
+    "code": "GM0385",
+    "passengerCount": 164,
+    "freightCount": 0
+  },
+  {
+    "name": "Ede",
+    "slug": "ede",
+    "province": "Gelderland",
+    "population": 120125,
+    "code": "GM0228",
+    "passengerCount": 552,
+    "freightCount": 0
+  },
+  {
+    "name": "Eemnes",
+    "slug": "eemnes",
+    "province": "Utrecht",
+    "population": 9222,
+    "code": "GM0317",
+    "passengerCount": 66,
+    "freightCount": 0
+  },
+  {
+    "name": "Eemsdelta",
+    "slug": "eemsdelta",
+    "province": "Groningen",
+    "population": 46079,
+    "code": "GM1979",
+    "passengerCount": 51,
+    "freightCount": 0
+  },
+  {
+    "name": "Eersel",
+    "slug": "eersel",
+    "province": "Noord-Brabant",
+    "population": 19319,
+    "code": "GM0770",
+    "passengerCount": 114,
+    "freightCount": 1
+  },
+  {
+    "name": "Eijsden-Margraten",
+    "slug": "eijsden-margraten",
+    "province": "Limburg",
+    "population": 25753,
+    "code": "GM1903",
+    "passengerCount": 83,
+    "freightCount": 0
+  },
+  {
+    "name": "Eindhoven",
+    "slug": "eindhoven",
+    "province": "Noord-Brabant",
+    "population": 238479,
+    "code": "GM0772",
+    "passengerCount": 1039,
+    "freightCount": 1
+  },
+  {
+    "name": "Elburg",
+    "slug": "elburg",
+    "province": "Gelderland",
+    "population": 23419,
+    "code": "GM0230",
+    "passengerCount": 124,
+    "freightCount": 0
+  },
+  {
+    "name": "Emmen",
+    "slug": "emmen",
+    "province": "Drenthe",
+    "population": 107055,
+    "code": "GM0114",
+    "passengerCount": 205,
+    "freightCount": 0
+  },
+  {
+    "name": "Enkhuizen",
+    "slug": "enkhuizen",
+    "province": "Noord-Holland",
+    "population": 18769,
+    "code": "GM0388",
+    "passengerCount": 177,
+    "freightCount": 0
+  },
+  {
+    "name": "Enschede",
+    "slug": "enschede",
+    "province": "Overijssel",
+    "population": 160476,
+    "code": "GM0153",
+    "passengerCount": 490,
+    "freightCount": 3
+  },
+  {
+    "name": "Epe",
+    "slug": "epe",
+    "province": "Gelderland",
+    "population": 33186,
+    "code": "GM0232",
+    "passengerCount": 97,
+    "freightCount": 0
+  },
+  {
+    "name": "Ermelo",
+    "slug": "ermelo",
+    "province": "Gelderland",
+    "population": 27413,
+    "code": "GM0233",
+    "passengerCount": 131,
+    "freightCount": 0
+  },
+  {
+    "name": "Etten-Leur",
+    "slug": "etten-leur",
+    "province": "Noord-Brabant",
+    "population": 44301,
+    "code": "GM0777",
+    "passengerCount": 224,
+    "freightCount": 1
+  },
+  {
+    "name": "Geertruidenberg",
+    "slug": "geertruidenberg",
+    "province": "Noord-Brabant",
+    "population": 21949,
+    "code": "GM0779",
+    "passengerCount": 149,
+    "freightCount": 0
+  },
+  {
+    "name": "Geldrop-Mierlo",
+    "slug": "geldrop-mierlo",
+    "province": "Noord-Brabant",
+    "population": 40135,
+    "code": "GM1771",
+    "passengerCount": 164,
+    "freightCount": 1
+  },
+  {
+    "name": "Gemert-Bakel",
+    "slug": "gemert-bakel",
+    "province": "Noord-Brabant",
+    "population": 31053,
+    "code": "GM1652",
+    "passengerCount": 88,
+    "freightCount": 1
+  },
+  {
+    "name": "Gennep",
+    "slug": "gennep",
+    "province": "Limburg",
+    "population": 17071,
+    "code": "GM0907",
+    "passengerCount": 57,
+    "freightCount": 0
+  },
+  {
+    "name": "Gilze en Rijen",
+    "slug": "gilze-en-rijen",
+    "province": "Noord-Brabant",
+    "population": 26748,
+    "code": "GM0784",
+    "passengerCount": 118,
+    "freightCount": 3
+  },
+  {
+    "name": "Goeree-Overflakkee",
+    "slug": "goeree-overflakkee",
+    "province": "Zuid-Holland",
+    "population": 50049,
+    "code": "GM1924",
+    "passengerCount": 128,
+    "freightCount": 1
+  },
+  {
+    "name": "Goes",
+    "slug": "goes",
+    "province": "Zeeland",
+    "population": 38151,
+    "code": "GM0664",
+    "passengerCount": 87,
+    "freightCount": 0
+  },
+  {
+    "name": "Goirle",
+    "slug": "goirle",
+    "province": "Noord-Brabant",
+    "population": 24198,
+    "code": "GM0785",
+    "passengerCount": 117,
+    "freightCount": 0
+  },
+  {
+    "name": "Gooise Meren",
+    "slug": "gooise-meren",
+    "province": "Noord-Holland",
+    "population": 59233,
+    "code": "GM1942",
+    "passengerCount": 344,
+    "freightCount": 2
+  },
+  {
+    "name": "Gorinchem",
+    "slug": "gorinchem",
+    "province": "Zuid-Holland",
+    "population": 37209,
+    "code": "GM0512",
+    "passengerCount": 113,
+    "freightCount": 1
+  },
+  {
+    "name": "Gouda",
+    "slug": "gouda",
+    "province": "Zuid-Holland",
+    "population": 75000,
+    "code": "GM0513",
+    "passengerCount": 45,
+    "freightCount": 1
+  },
+  {
+    "name": "Groningen",
+    "slug": "groningen",
+    "province": "Groningen",
+    "population": 235763,
+    "code": "GM0014",
+    "passengerCount": 781,
+    "freightCount": 2
+  },
+  {
+    "name": "Gulpen-Wittem",
+    "slug": "gulpen-wittem",
+    "province": "Limburg",
+    "population": 13988,
+    "code": "GM1729",
+    "passengerCount": 63,
+    "freightCount": 0
+  },
+  {
+    "name": "Haaksbergen",
+    "slug": "haaksbergen",
+    "province": "Overijssel",
+    "population": 24309,
+    "code": "GM0158",
+    "passengerCount": 90,
+    "freightCount": 0
+  },
+  {
+    "name": "Haarlem",
+    "slug": "haarlem",
+    "province": "Noord-Holland",
+    "population": 162543,
+    "code": "GM0392",
+    "passengerCount": 511,
+    "freightCount": 1
+  },
+  {
+    "name": "Haarlemmermeer",
+    "slug": "haarlemmermeer",
+    "province": "Noord-Holland",
+    "population": 156655,
+    "code": "GM0394",
+    "passengerCount": 726,
+    "freightCount": 9
+  },
+  {
+    "name": "Halderberge",
+    "slug": "halderberge",
+    "province": "Noord-Brabant",
+    "population": 30563,
+    "code": "GM1655",
+    "passengerCount": 96,
+    "freightCount": 0
+  },
+  {
+    "name": "Hardenberg",
+    "slug": "hardenberg",
+    "province": "Overijssel",
+    "population": 60940,
+    "code": "GM0160",
+    "passengerCount": 176,
+    "freightCount": 0
+  },
+  {
+    "name": "Harderwijk",
+    "slug": "harderwijk",
+    "province": "Gelderland",
+    "population": 48982,
+    "code": "GM0243",
+    "passengerCount": 143,
+    "freightCount": 0
+  },
+  {
+    "name": "Hardinxveld-Giessendam",
+    "slug": "hardinxveld-giessendam",
+    "province": "Zuid-Holland",
+    "population": 18295,
+    "code": "GM0523",
+    "passengerCount": 45,
+    "freightCount": 0
+  },
+  {
+    "name": "Harlingen",
+    "slug": "harlingen",
+    "province": "Friesland",
+    "population": 15986,
+    "code": "GM0072",
+    "passengerCount": 70,
+    "freightCount": 1
+  },
+  {
+    "name": "Hattem",
+    "slug": "hattem",
+    "province": "Gelderland",
+    "population": 12414,
+    "code": "GM0244",
+    "passengerCount": 38,
+    "freightCount": 0
+  },
+  {
+    "name": "Heemskerk",
+    "slug": "heemskerk",
+    "province": "Noord-Holland",
+    "population": 39188,
+    "code": "GM0396",
+    "passengerCount": 157,
+    "freightCount": 0
+  },
+  {
+    "name": "Heemstede",
+    "slug": "heemstede",
+    "province": "Noord-Holland",
+    "population": 27239,
+    "code": "GM0397",
+    "passengerCount": 127,
+    "freightCount": 0
+  },
+  {
+    "name": "Heerde",
+    "slug": "heerde",
+    "province": "Gelderland",
+    "population": 18821,
+    "code": "GM0246",
+    "passengerCount": 71,
+    "freightCount": 0
+  },
+  {
+    "name": "Heerenveen",
+    "slug": "heerenveen",
+    "province": "Friesland",
+    "population": 50780,
+    "code": "GM0074",
+    "passengerCount": 124,
+    "freightCount": 2
+  },
+  {
+    "name": "Heerlen",
+    "slug": "heerlen",
+    "province": "Limburg",
+    "population": 86762,
+    "code": "GM0917",
+    "passengerCount": 310,
+    "freightCount": 0
+  },
+  {
+    "name": "Heeze-Leende",
+    "slug": "heeze-leende",
+    "province": "Noord-Brabant",
+    "population": 16301,
+    "code": "GM1658",
+    "passengerCount": 48,
+    "freightCount": 0
+  },
+  {
+    "name": "Heiloo",
+    "slug": "heiloo",
+    "province": "Noord-Holland",
+    "population": 24014,
+    "code": "GM0399",
+    "passengerCount": 116,
+    "freightCount": 0
+  },
+  {
+    "name": "Hellendoorn",
+    "slug": "hellendoorn",
+    "province": "Overijssel",
+    "population": 35923,
+    "code": "GM0163",
+    "passengerCount": 149,
+    "freightCount": 0
+  },
+  {
+    "name": "Helmond",
+    "slug": "helmond",
+    "province": "Noord-Brabant",
+    "population": 93903,
+    "code": "GM0794",
+    "passengerCount": 330,
+    "freightCount": 3
+  },
+  {
+    "name": "Hendrik-Ido-Ambacht",
+    "slug": "hendrik-ido-ambacht",
+    "province": "Zuid-Holland",
+    "population": 31353,
+    "code": "GM0531",
+    "passengerCount": 116,
+    "freightCount": 2
+  },
+  {
+    "name": "Hengelo (O.)",
+    "slug": "hengelo-o",
+    "province": "Overijssel",
+    "population": 81140,
+    "code": "GM0164",
+    "passengerCount": 273,
+    "freightCount": 0
+  },
+  {
+    "name": "Het Hogeland",
+    "slug": "het-hogeland",
+    "province": "Groningen",
+    "population": 47834,
+    "code": "GM1966",
+    "passengerCount": 91,
+    "freightCount": 0
+  },
+  {
+    "name": "Heumen",
+    "slug": "heumen",
+    "province": "Gelderland",
+    "population": 16684,
+    "code": "GM0252",
+    "passengerCount": 46,
+    "freightCount": 0
+  },
+  {
+    "name": "Heusden",
+    "slug": "heusden",
+    "province": "Noord-Brabant",
+    "population": 45116,
+    "code": "GM0797",
+    "passengerCount": 213,
+    "freightCount": 0
+  },
+  {
+    "name": "Hillegom",
+    "slug": "hillegom",
+    "province": "Zuid-Holland",
+    "population": 22339,
+    "code": "GM0534",
+    "passengerCount": 72,
+    "freightCount": 0
+  },
+  {
+    "name": "Hilvarenbeek",
+    "slug": "hilvarenbeek",
+    "province": "Noord-Brabant",
+    "population": 15514,
+    "code": "GM0798",
+    "passengerCount": 55,
+    "freightCount": 0
+  },
+  {
+    "name": "Hilversum",
+    "slug": "hilversum",
+    "province": "Noord-Holland",
+    "population": 92761,
+    "code": "GM0402",
+    "passengerCount": 309,
+    "freightCount": 0
+  },
+  {
+    "name": "Hoeksche Waard",
+    "slug": "hoeksche-waard",
+    "province": "Zuid-Holland",
+    "population": 87461,
+    "code": "GM1963",
+    "passengerCount": 197,
+    "freightCount": 0
+  },
+  {
+    "name": "Hof van Twente",
+    "slug": "hof-van-twente",
+    "province": "Overijssel",
+    "population": 35013,
+    "code": "GM1735",
+    "passengerCount": 108,
+    "freightCount": 0
+  },
+  {
+    "name": "Hollands Kroon",
+    "slug": "hollands-kroon",
+    "province": "Noord-Holland",
+    "population": 48434,
+    "code": "GM1911",
+    "passengerCount": 142,
+    "freightCount": 3
+  },
+  {
+    "name": "Hoogeveen",
+    "slug": "hoogeveen",
+    "province": "Drenthe",
+    "population": 55697,
+    "code": "GM0118",
+    "passengerCount": 107,
+    "freightCount": 1
+  },
+  {
+    "name": "Hoorn",
+    "slug": "hoorn",
+    "province": "Noord-Holland",
+    "population": 74932,
+    "code": "GM0405",
+    "passengerCount": 318,
+    "freightCount": 0
+  },
+  {
+    "name": "Horst aan de Maas",
+    "slug": "horst-aan-de-maas",
+    "province": "Limburg",
+    "population": 42433,
+    "code": "GM1507",
+    "passengerCount": 149,
+    "freightCount": 1
+  },
+  {
+    "name": "Houten",
+    "slug": "houten",
+    "province": "Utrecht",
+    "population": 51177,
+    "code": "GM0321",
+    "passengerCount": 289,
+    "freightCount": 0
+  },
+  {
+    "name": "Huizen",
+    "slug": "huizen",
+    "province": "Noord-Holland",
+    "population": 41462,
+    "code": "GM0406",
+    "passengerCount": 182,
+    "freightCount": 0
+  },
+  {
+    "name": "Hulst",
+    "slug": "hulst",
+    "province": "Zeeland",
+    "population": 27556,
+    "code": "GM0677",
+    "passengerCount": 23,
+    "freightCount": 0
+  },
+  {
+    "name": "IJsselstein",
+    "slug": "ijsselstein",
+    "province": "Utrecht",
+    "population": 34110,
+    "code": "GM0353",
+    "passengerCount": 174,
+    "freightCount": 0
+  },
+  {
+    "name": "Kaag en Braassem",
+    "slug": "kaag-en-braassem",
+    "province": "Zuid-Holland",
+    "population": 28050,
+    "code": "GM1884",
+    "passengerCount": 21,
+    "freightCount": 0
+  },
+  {
+    "name": "Kampen",
+    "slug": "kampen",
+    "province": "Overijssel",
+    "population": 55513,
+    "code": "GM0166",
+    "passengerCount": 222,
+    "freightCount": 1
+  },
+  {
+    "name": "Kapelle",
+    "slug": "kapelle",
+    "province": "Zeeland",
+    "population": 12691,
+    "code": "GM0678",
+    "passengerCount": 10,
+    "freightCount": 0
+  },
+  {
+    "name": "Katwijk",
+    "slug": "katwijk",
+    "province": "Zuid-Holland",
+    "population": 66080,
+    "code": "GM0537",
+    "passengerCount": 292,
+    "freightCount": 0
+  },
+  {
+    "name": "Kerkrade",
+    "slug": "kerkrade",
+    "province": "Limburg",
+    "population": 44444,
+    "code": "GM0928",
+    "passengerCount": 181,
+    "freightCount": 0
+  },
+  {
+    "name": "Koggenland",
+    "slug": "koggenland",
+    "province": "Noord-Holland",
+    "population": 22814,
+    "code": "GM1598",
+    "passengerCount": 80,
+    "freightCount": 0
+  },
+  {
+    "name": "Krimpen aan den IJssel",
+    "slug": "krimpen-aan-den-ijssel",
+    "province": "Zuid-Holland",
+    "population": 29410,
+    "code": "GM0542",
+    "passengerCount": 14,
+    "freightCount": 0
+  },
+  {
+    "name": "Krimpenerwaard",
+    "slug": "krimpenerwaard",
+    "province": "Zuid-Holland",
+    "population": 56655,
+    "code": "GM1931",
+    "passengerCount": 121,
+    "freightCount": 0
+  },
+  {
+    "name": "Laarbeek",
+    "slug": "laarbeek",
+    "province": "Noord-Brabant",
+    "population": 22626,
+    "code": "GM1659",
+    "passengerCount": 80,
+    "freightCount": 0
+  },
+  {
+    "name": "Land van Cuijk",
+    "slug": "land-van-cuijk",
+    "province": "Noord-Brabant",
+    "population": 91000,
+    "code": "GM1982",
+    "passengerCount": 321,
+    "freightCount": 1
+  },
+  {
+    "name": "Landgraaf",
+    "slug": "landgraaf",
+    "province": "Limburg",
+    "population": 36781,
+    "code": "GM0882",
+    "passengerCount": 120,
+    "freightCount": 0
+  },
+  {
+    "name": "Landsmeer",
+    "slug": "landsmeer",
+    "province": "Noord-Holland",
+    "population": 11662,
+    "code": "GM0415",
+    "passengerCount": 55,
+    "freightCount": 0
+  },
+  {
+    "name": "Lansingerland",
+    "slug": "lansingerland",
+    "province": "Zuid-Holland",
+    "population": 64614,
+    "code": "GM1621",
+    "passengerCount": 104,
+    "freightCount": 0
+  },
+  {
+    "name": "Laren (NH.)",
+    "slug": "laren-nh",
+    "province": "Noord-Holland",
+    "population": 11433,
+    "code": "GM0417",
+    "passengerCount": 51,
+    "freightCount": 0
+  },
+  {
+    "name": "Leeuwarden",
+    "slug": "leeuwarden",
+    "province": "Friesland",
+    "population": 127627,
+    "code": "GM0080",
+    "passengerCount": 335,
+    "freightCount": 0
+  },
+  {
+    "name": "Leiden",
+    "slug": "leiden",
+    "province": "Zuid-Holland",
+    "population": 127046,
+    "code": "GM0546",
+    "passengerCount": 466,
+    "freightCount": 0
+  },
+  {
+    "name": "Leiderdorp",
+    "slug": "leiderdorp",
+    "province": "Zuid-Holland",
+    "population": 27424,
+    "code": "GM0547",
+    "passengerCount": 83,
+    "freightCount": 1
+  },
+  {
+    "name": "Leidschendam-Voorburg",
+    "slug": "leidschendam-voorburg",
+    "province": "Zuid-Holland",
+    "population": 76222,
+    "code": "GM1916",
+    "passengerCount": 26,
+    "freightCount": 0
+  },
+  {
+    "name": "Lelystad",
+    "slug": "lelystad",
+    "province": "Flevoland",
+    "population": 80562,
+    "code": "GM0995",
+    "passengerCount": 295,
+    "freightCount": 2
+  },
+  {
+    "name": "Leudal",
+    "slug": "leudal",
+    "province": "Limburg",
+    "population": 35629,
+    "code": "GM1640",
+    "passengerCount": 108,
+    "freightCount": 0
+  },
+  {
+    "name": "Leusden",
+    "slug": "leusden",
+    "province": "Utrecht",
+    "population": 30718,
+    "code": "GM0327",
+    "passengerCount": 158,
+    "freightCount": 0
+  },
+  {
+    "name": "Lingewaard",
+    "slug": "lingewaard",
+    "province": "Gelderland",
+    "population": 46832,
+    "code": "GM1705",
+    "passengerCount": 219,
+    "freightCount": 0
+  },
+  {
+    "name": "Lisse",
+    "slug": "lisse",
+    "province": "Zuid-Holland",
+    "population": 23012,
+    "code": "GM0553",
+    "passengerCount": 68,
+    "freightCount": 1
+  },
+  {
+    "name": "Lochem",
+    "slug": "lochem",
+    "province": "Gelderland",
+    "population": 33730,
+    "code": "GM0262",
+    "passengerCount": 116,
+    "freightCount": 0
+  },
+  {
+    "name": "Loon op Zand",
+    "slug": "loon-op-zand",
+    "province": "Noord-Brabant",
+    "population": 23543,
+    "code": "GM0809",
+    "passengerCount": 151,
+    "freightCount": 0
+  },
+  {
+    "name": "Lopik",
+    "slug": "lopik",
+    "province": "Utrecht",
+    "population": 14313,
+    "code": "GM0331",
+    "passengerCount": 37,
+    "freightCount": 0
+  },
+  {
+    "name": "Losser",
+    "slug": "losser",
+    "province": "Overijssel",
+    "population": 22555,
+    "code": "GM0168",
+    "passengerCount": 64,
+    "freightCount": 0
+  },
+  {
+    "name": "Maasdriel",
+    "slug": "maasdriel",
+    "province": "Gelderland",
+    "population": 25234,
+    "code": "GM0263",
+    "passengerCount": 95,
+    "freightCount": 0
+  },
+  {
+    "name": "Maasgouw",
+    "slug": "maasgouw",
+    "province": "Limburg",
+    "population": 23960,
+    "code": "GM1641",
+    "passengerCount": 61,
+    "freightCount": 0
+  },
+  {
+    "name": "Maashorst",
+    "slug": "maashorst",
+    "province": "Noord-Brabant",
+    "population": 57000,
+    "code": "GM1991",
+    "passengerCount": 268,
+    "freightCount": 2
+  },
+  {
+    "name": "Maassluis",
+    "slug": "maassluis",
+    "province": "Zuid-Holland",
+    "population": 33214,
+    "code": "GM0556",
+    "passengerCount": 53,
+    "freightCount": 0
+  },
+  {
+    "name": "Maastricht",
+    "slug": "maastricht",
+    "province": "Limburg",
+    "population": 121565,
+    "code": "GM0935",
+    "passengerCount": 512,
+    "freightCount": 1
+  },
+  {
+    "name": "Medemblik",
+    "slug": "medemblik",
+    "province": "Noord-Holland",
+    "population": 45159,
+    "code": "GM0420",
+    "passengerCount": 119,
+    "freightCount": 0
+  },
+  {
+    "name": "Meerssen",
+    "slug": "meerssen",
+    "province": "Limburg",
+    "population": 18655,
+    "code": "GM0938",
+    "passengerCount": 54,
+    "freightCount": 1
+  },
+  {
+    "name": "Meierijstad",
+    "slug": "meierijstad",
+    "province": "Noord-Brabant",
+    "population": 83762,
+    "code": "GM1948",
+    "passengerCount": 402,
+    "freightCount": 3
+  },
+  {
+    "name": "Meppel",
+    "slug": "meppel",
+    "province": "Drenthe",
+    "population": 34064,
+    "code": "GM0119",
+    "passengerCount": 79,
+    "freightCount": 1
+  },
+  {
+    "name": "Middelburg (Z.)",
+    "slug": "middelburg-z",
+    "province": "Zeeland",
+    "population": 48721,
+    "code": "GM0687",
+    "passengerCount": 77,
+    "freightCount": 0
+  },
+  {
+    "name": "Midden-Delfland",
+    "slug": "midden-delfland",
+    "province": "Zuid-Holland",
+    "population": 19730,
+    "code": "GM1842",
+    "passengerCount": 19,
+    "freightCount": 2
+  },
+  {
+    "name": "Midden-Drenthe",
+    "slug": "midden-drenthe",
+    "province": "Drenthe",
+    "population": 33209,
+    "code": "GM1731",
+    "passengerCount": 60,
+    "freightCount": 2
+  },
+  {
+    "name": "Midden-Groningen",
+    "slug": "midden-groningen",
+    "province": "Groningen",
+    "population": 60804,
+    "code": "GM1952",
+    "passengerCount": 38,
+    "freightCount": 0
+  },
+  {
+    "name": "Moerdijk",
+    "slug": "moerdijk",
+    "province": "Noord-Brabant",
+    "population": 37353,
+    "code": "GM1709",
+    "passengerCount": 139,
+    "freightCount": 1
+  },
+  {
+    "name": "Molenlanden",
+    "slug": "molenlanden",
+    "province": "Zuid-Holland",
+    "population": 44279,
+    "code": "GM1978",
+    "passengerCount": 99,
+    "freightCount": 0
+  },
+  {
+    "name": "Montferland",
+    "slug": "montferland",
+    "province": "Gelderland",
+    "population": 36301,
+    "code": "GM1955",
+    "passengerCount": 93,
+    "freightCount": 1
+  },
+  {
+    "name": "Montfoort",
+    "slug": "montfoort",
+    "province": "Utrecht",
+    "population": 13920,
+    "code": "GM0335",
+    "passengerCount": 55,
+    "freightCount": 0
+  },
+  {
+    "name": "Mook en Middelaar",
+    "slug": "mook-en-middelaar",
+    "province": "Limburg",
+    "population": 7823,
+    "code": "GM0944",
+    "passengerCount": 34,
+    "freightCount": 0
+  },
+  {
+    "name": "Neder-Betuwe",
+    "slug": "neder-betuwe",
+    "province": "Gelderland",
+    "population": 24885,
+    "code": "GM1740",
+    "passengerCount": 91,
+    "freightCount": 1
+  },
+  {
+    "name": "Nederweert",
+    "slug": "nederweert",
+    "province": "Limburg",
+    "population": 17270,
+    "code": "GM0946",
+    "passengerCount": 69,
+    "freightCount": 0
+  },
+  {
+    "name": "Nieuwegein",
+    "slug": "nieuwegein",
+    "province": "Utrecht",
+    "population": 63847,
+    "code": "GM0356",
+    "passengerCount": 250,
+    "freightCount": 6
+  },
+  {
+    "name": "Nieuwkoop",
+    "slug": "nieuwkoop",
+    "province": "Zuid-Holland",
+    "population": 29048,
+    "code": "GM0569",
+    "passengerCount": 141,
+    "freightCount": 0
+  },
+  {
+    "name": "Nijkerk",
+    "slug": "nijkerk",
+    "province": "Gelderland",
+    "population": 44163,
+    "code": "GM0267",
+    "passengerCount": 254,
+    "freightCount": 0
+  },
+  {
+    "name": "Nijmegen",
+    "slug": "nijmegen",
+    "province": "Gelderland",
+    "population": 179073,
+    "code": "GM0268",
+    "passengerCount": 822,
+    "freightCount": 1
+  },
+  {
+    "name": "Nissewaard",
+    "slug": "nissewaard",
+    "province": "Zuid-Holland",
+    "population": 85682,
+    "code": "GM1930",
+    "passengerCount": 41,
+    "freightCount": 0
+  },
+  {
+    "name": "Noardeast-Fryslân",
+    "slug": "noardeast-fryslan",
+    "province": "Friesland",
+    "population": 45533,
+    "code": "GM1970",
+    "passengerCount": 47,
+    "freightCount": 0
+  },
+  {
+    "name": "Noord-Beveland",
+    "slug": "noord-beveland",
+    "province": "Zeeland",
+    "population": 7395,
+    "code": "GM1695",
+    "passengerCount": 53,
+    "freightCount": 0
+  },
+  {
+    "name": "Noordenveld",
+    "slug": "noordenveld",
+    "province": "Drenthe",
+    "population": 31242,
+    "code": "GM1699",
+    "passengerCount": 52,
+    "freightCount": 0
+  },
+  {
+    "name": "Noordoostpolder",
+    "slug": "noordoostpolder",
+    "province": "Flevoland",
+    "population": 47262,
+    "code": "GM0171",
+    "passengerCount": 161,
+    "freightCount": 3
+  },
+  {
+    "name": "Noordwijk",
+    "slug": "noordwijk",
+    "province": "Zuid-Holland",
+    "population": 44062,
+    "code": "GM0575",
+    "passengerCount": 143,
+    "freightCount": 0
+  },
+  {
+    "name": "Nuenen, Gerwen en Nederwetten",
+    "slug": "nuenen-gerwen-en-nederwetten",
+    "province": "Noord-Brabant",
+    "population": 23617,
+    "code": "GM0820",
+    "passengerCount": 98,
+    "freightCount": 0
+  },
+  {
+    "name": "Nunspeet",
+    "slug": "nunspeet",
+    "province": "Gelderland",
+    "population": 27852,
+    "code": "GM0302",
+    "passengerCount": 130,
+    "freightCount": 2
+  },
+  {
+    "name": "Oegstgeest",
+    "slug": "oegstgeest",
+    "province": "Zuid-Holland",
+    "population": 24843,
+    "code": "GM0579",
+    "passengerCount": 139,
+    "freightCount": 0
+  },
+  {
+    "name": "Oirschot",
+    "slug": "oirschot",
+    "province": "Noord-Brabant",
+    "population": 18936,
+    "code": "GM0823",
+    "passengerCount": 90,
+    "freightCount": 3
+  },
+  {
+    "name": "Oisterwijk",
+    "slug": "oisterwijk",
+    "province": "Noord-Brabant",
+    "population": 26429,
+    "code": "GM0824",
+    "passengerCount": 137,
+    "freightCount": 0
+  },
+  {
+    "name": "Oldambt",
+    "slug": "oldambt",
+    "province": "Groningen",
+    "population": 37990,
+    "code": "GM1895",
+    "passengerCount": 63,
+    "freightCount": 0
+  },
+  {
+    "name": "Oldebroek",
+    "slug": "oldebroek",
+    "province": "Gelderland",
+    "population": 23820,
+    "code": "GM0269",
+    "passengerCount": 79,
+    "freightCount": 1
+  },
+  {
+    "name": "Oldenzaal",
+    "slug": "oldenzaal",
+    "province": "Overijssel",
+    "population": 31990,
+    "code": "GM0173",
+    "passengerCount": 110,
+    "freightCount": 0
+  },
+  {
+    "name": "Olst-Wijhe",
+    "slug": "olst-wijhe",
+    "province": "Overijssel",
+    "population": 18279,
+    "code": "GM1773",
+    "passengerCount": 65,
+    "freightCount": 0
+  },
+  {
+    "name": "Ommen",
+    "slug": "ommen",
+    "province": "Overijssel",
+    "population": 18182,
+    "code": "GM0175",
+    "passengerCount": 59,
+    "freightCount": 1
+  },
+  {
+    "name": "Oost Gelre",
+    "slug": "oost-gelre",
+    "province": "Gelderland",
+    "population": 29557,
+    "code": "GM1586",
+    "passengerCount": 94,
+    "freightCount": 0
+  },
+  {
+    "name": "Oosterhout",
+    "slug": "oosterhout",
+    "province": "Noord-Brabant",
+    "population": 56206,
+    "code": "GM0826",
+    "passengerCount": 315,
+    "freightCount": 3
+  },
+  {
+    "name": "Ooststellingwerf",
+    "slug": "ooststellingwerf",
+    "province": "Friesland",
+    "population": 25472,
+    "code": "GM0085",
+    "passengerCount": 53,
+    "freightCount": 0
+  },
+  {
+    "name": "Oostzaan",
+    "slug": "oostzaan",
+    "province": "Noord-Holland",
+    "population": 9891,
+    "code": "GM0431",
+    "passengerCount": 41,
+    "freightCount": 2
+  },
+  {
+    "name": "Opmeer",
+    "slug": "opmeer",
+    "province": "Noord-Holland",
+    "population": 11837,
+    "code": "GM0432",
+    "passengerCount": 42,
+    "freightCount": 0
+  },
+  {
+    "name": "Opsterland",
+    "slug": "opsterland",
+    "province": "Friesland",
+    "population": 29742,
+    "code": "GM0086",
+    "passengerCount": 82,
+    "freightCount": 1
+  },
+  {
+    "name": "Oss",
+    "slug": "oss",
+    "province": "Noord-Brabant",
+    "population": 92994,
+    "code": "GM0828",
+    "passengerCount": 361,
+    "freightCount": 0
+  },
+  {
+    "name": "Oude IJsselstreek",
+    "slug": "oude-ijsselstreek",
+    "province": "Gelderland",
+    "population": 39371,
+    "code": "GM1509",
+    "passengerCount": 86,
+    "freightCount": 1
+  },
+  {
+    "name": "Ouder-Amstel",
+    "slug": "ouder-amstel",
+    "province": "Noord-Holland",
+    "population": 14261,
+    "code": "GM0437",
+    "passengerCount": 99,
+    "freightCount": 1
+  },
+  {
+    "name": "Oudewater",
+    "slug": "oudewater",
+    "province": "Utrecht",
+    "population": 10318,
+    "code": "GM0589",
+    "passengerCount": 34,
+    "freightCount": 0
+  },
+  {
+    "name": "Overbetuwe",
+    "slug": "overbetuwe",
+    "province": "Gelderland",
+    "population": 48640,
+    "code": "GM1734",
+    "passengerCount": 208,
+    "freightCount": 0
+  },
+  {
+    "name": "Papendrecht",
+    "slug": "papendrecht",
+    "province": "Zuid-Holland",
+    "population": 32235,
+    "code": "GM0590",
+    "passengerCount": 152,
+    "freightCount": 1
+  },
+  {
+    "name": "Peel en Maas",
+    "slug": "peel-en-maas",
+    "province": "Limburg",
+    "population": 43420,
+    "code": "GM1894",
+    "passengerCount": 120,
+    "freightCount": 1
+  },
+  {
+    "name": "Pekela",
+    "slug": "pekela",
+    "province": "Groningen",
+    "population": 12199,
+    "code": "GM0765",
+    "passengerCount": 8,
+    "freightCount": 0
+  },
+  {
+    "name": "Pijnacker-Nootdorp",
+    "slug": "pijnacker-nootdorp",
+    "province": "Zuid-Holland",
+    "population": 56476,
+    "code": "GM1926",
+    "passengerCount": 49,
+    "freightCount": 0
+  },
+  {
+    "name": "Purmerend",
+    "slug": "purmerend",
+    "province": "Noord-Holland",
+    "population": 83261,
+    "code": "GM0439",
+    "passengerCount": 399,
+    "freightCount": 5
+  },
+  {
+    "name": "Putten",
+    "slug": "putten",
+    "province": "Gelderland",
+    "population": 24664,
+    "code": "GM0273",
+    "passengerCount": 72,
+    "freightCount": 1
+  },
+  {
+    "name": "Raalte",
+    "slug": "raalte",
+    "province": "Overijssel",
+    "population": 37943,
+    "code": "GM0177",
+    "passengerCount": 132,
+    "freightCount": 0
+  },
+  {
+    "name": "Reimerswaal",
+    "slug": "reimerswaal",
+    "province": "Zeeland",
+    "population": 22637,
+    "code": "GM0703",
+    "passengerCount": 28,
+    "freightCount": 1
+  },
+  {
+    "name": "Renkum",
+    "slug": "renkum",
+    "province": "Gelderland",
+    "population": 31328,
+    "code": "GM0274",
+    "passengerCount": 40,
+    "freightCount": 0
+  },
+  {
+    "name": "Renswoude",
+    "slug": "renswoude",
+    "province": "Utrecht",
+    "population": 5510,
+    "code": "GM0339",
+    "passengerCount": 19,
+    "freightCount": 0
+  },
+  {
+    "name": "Reusel-De Mierden",
+    "slug": "reusel-de-mierden",
+    "province": "Noord-Brabant",
+    "population": 13281,
+    "code": "GM1667",
+    "passengerCount": 28,
+    "freightCount": 0
+  },
+  {
+    "name": "Rheden",
+    "slug": "rheden",
+    "province": "Gelderland",
+    "population": 43740,
+    "code": "GM0275",
+    "passengerCount": 138,
+    "freightCount": 0
+  },
+  {
+    "name": "Rhenen",
+    "slug": "rhenen",
+    "province": "Utrecht",
+    "population": 20260,
+    "code": "GM0340",
+    "passengerCount": 66,
+    "freightCount": 0
+  },
+  {
+    "name": "Ridderkerk",
+    "slug": "ridderkerk",
+    "province": "Zuid-Holland",
+    "population": 46204,
+    "code": "GM0597",
+    "passengerCount": 91,
+    "freightCount": 2
+  },
+  {
+    "name": "Rijssen-Holten",
+    "slug": "rijssen-holten",
+    "province": "Overijssel",
+    "population": 38436,
+    "code": "GM1742",
+    "passengerCount": 139,
+    "freightCount": 0
+  },
+  {
+    "name": "Rijswijk (ZH.)",
+    "slug": "rijswijk-zh",
+    "province": "Zuid-Holland",
+    "population": 55220,
+    "code": "GM0603",
+    "passengerCount": 54,
+    "freightCount": 1
+  },
+  {
+    "name": "Roerdalen",
+    "slug": "roerdalen",
+    "province": "Limburg",
+    "population": 20572,
+    "code": "GM1669",
+    "passengerCount": 53,
+    "freightCount": 0
+  },
+  {
+    "name": "Roermond",
+    "slug": "roermond",
+    "province": "Limburg",
+    "population": 58254,
+    "code": "GM0957",
+    "passengerCount": 237,
+    "freightCount": 1
+  },
+  {
+    "name": "Roosendaal",
+    "slug": "roosendaal",
+    "province": "Noord-Brabant",
+    "population": 77226,
+    "code": "GM1674",
+    "passengerCount": 293,
+    "freightCount": 1
+  },
+  {
+    "name": "Rotterdam",
+    "slug": "rotterdam",
+    "province": "Zuid-Holland",
+    "population": 664311,
+    "code": "GM0599",
+    "passengerCount": 378,
+    "freightCount": 7
+  },
+  {
+    "name": "Rozendaal",
+    "slug": "rozendaal",
+    "province": "Gelderland",
+    "population": 1698,
+    "code": "GM0277",
+    "passengerCount": 10,
+    "freightCount": 0
+  },
+  {
+    "name": "Rucphen",
+    "slug": "rucphen",
+    "province": "Noord-Brabant",
+    "population": 22923,
+    "code": "GM0840",
+    "passengerCount": 42,
+    "freightCount": 0
+  },
+  {
+    "name": "Schagen",
+    "slug": "schagen",
+    "province": "Noord-Holland",
+    "population": 46631,
+    "code": "GM0441",
+    "passengerCount": 193,
+    "freightCount": 0
+  },
+  {
+    "name": "Scherpenzeel",
+    "slug": "scherpenzeel",
+    "province": "Gelderland",
+    "population": 10152,
+    "code": "GM0279",
+    "passengerCount": 29,
+    "freightCount": 0
+  },
+  {
+    "name": "Schiedam",
+    "slug": "schiedam",
+    "province": "Zuid-Holland",
+    "population": 78739,
+    "code": "GM0606",
+    "passengerCount": 30,
+    "freightCount": 1
+  },
+  {
+    "name": "Schiermonnikoog",
+    "slug": "schiermonnikoog",
+    "province": "Friesland",
+    "population": 936,
+    "code": "GM0088",
+    "passengerCount": 1,
+    "freightCount": 0
+  },
+  {
+    "name": "Schouwen-Duiveland",
+    "slug": "schouwen-duiveland",
+    "province": "Zeeland",
+    "population": 33737,
+    "code": "GM1676",
+    "passengerCount": 108,
+    "freightCount": 1
+  },
+  {
+    "name": "Simpelveld",
+    "slug": "simpelveld",
+    "province": "Limburg",
+    "population": 10330,
+    "code": "GM0965",
+    "passengerCount": 34,
+    "freightCount": 0
+  },
+  {
+    "name": "Sint-Michielsgestel",
+    "slug": "sint-michielsgestel",
+    "province": "Noord-Brabant",
+    "population": 29398,
+    "code": "GM0845",
+    "passengerCount": 106,
+    "freightCount": 0
+  },
+  {
+    "name": "Sittard-Geleen",
+    "slug": "sittard-geleen",
+    "province": "Limburg",
+    "population": 91949,
+    "code": "GM1883",
+    "passengerCount": 216,
+    "freightCount": 0
+  },
+  {
+    "name": "Sliedrecht",
+    "slug": "sliedrecht",
+    "province": "Zuid-Holland",
+    "population": 25698,
+    "code": "GM0610",
+    "passengerCount": 107,
+    "freightCount": 1
+  },
+  {
+    "name": "Sluis",
+    "slug": "sluis",
+    "province": "Zeeland",
+    "population": 23217,
+    "code": "GM1714",
+    "passengerCount": 66,
+    "freightCount": 0
+  },
+  {
+    "name": "Smallingerland",
+    "slug": "smallingerland",
+    "province": "Friesland",
+    "population": 56299,
+    "code": "GM0090",
+    "passengerCount": 163,
+    "freightCount": 2
+  },
+  {
+    "name": "Soest",
+    "slug": "soest",
+    "province": "Utrecht",
+    "population": 46932,
+    "code": "GM0342",
+    "passengerCount": 222,
+    "freightCount": 0
+  },
+  {
+    "name": "Someren",
+    "slug": "someren",
+    "province": "Noord-Brabant",
+    "population": 19466,
+    "code": "GM0847",
+    "passengerCount": 62,
+    "freightCount": 2
+  },
+  {
+    "name": "Son en Breugel",
+    "slug": "son-en-breugel",
+    "province": "Noord-Brabant",
+    "population": 17321,
+    "code": "GM0848",
+    "passengerCount": 80,
+    "freightCount": 0
+  },
+  {
+    "name": "Stadskanaal",
+    "slug": "stadskanaal",
+    "province": "Groningen",
+    "population": 31688,
+    "code": "GM0037",
+    "passengerCount": 35,
+    "freightCount": 0
+  },
+  {
+    "name": "Staphorst",
+    "slug": "staphorst",
+    "province": "Overijssel",
+    "population": 17194,
+    "code": "GM0180",
+    "passengerCount": 51,
+    "freightCount": 0
+  },
+  {
+    "name": "Stede Broec",
+    "slug": "stede-broec",
+    "province": "Noord-Holland",
+    "population": 22102,
+    "code": "GM0532",
+    "passengerCount": 56,
+    "freightCount": 0
+  },
+  {
+    "name": "Steenbergen",
+    "slug": "steenbergen",
+    "province": "Noord-Brabant",
+    "population": 24816,
+    "code": "GM0851",
+    "passengerCount": 113,
+    "freightCount": 0
+  },
+  {
+    "name": "Steenwijkerland",
+    "slug": "steenwijkerland",
+    "province": "Overijssel",
+    "population": 44519,
+    "code": "GM1708",
+    "passengerCount": 203,
+    "freightCount": 2
+  },
+  {
+    "name": "Stein (L.)",
+    "slug": "stein-l",
+    "province": "Limburg",
+    "population": 24726,
+    "code": "GM0971",
+    "passengerCount": 62,
+    "freightCount": 0
+  },
+  {
+    "name": "Stichtse Vecht",
+    "slug": "stichtse-vecht",
+    "province": "Utrecht",
+    "population": 65396,
+    "code": "GM1904",
+    "passengerCount": 260,
+    "freightCount": 3
+  },
+  {
+    "name": "Súdwest-Fryslân",
+    "slug": "sudwest-fryslan",
+    "province": "Friesland",
+    "population": 89987,
+    "code": "GM1900",
+    "passengerCount": 87,
+    "freightCount": 0
+  },
+  {
+    "name": "Terneuzen",
+    "slug": "terneuzen",
+    "province": "Zeeland",
+    "population": 54438,
+    "code": "GM0715",
+    "passengerCount": 61,
+    "freightCount": 2
+  },
+  {
+    "name": "Terschelling",
+    "slug": "terschelling",
+    "province": "Friesland",
+    "population": 4895,
+    "code": "GM0093",
+    "passengerCount": 14,
+    "freightCount": 0
+  },
+  {
+    "name": "Texel",
+    "slug": "texel",
+    "province": "Noord-Holland",
+    "population": 13573,
+    "code": "GM0448",
+    "passengerCount": 80,
+    "freightCount": 0
+  },
+  {
+    "name": "Teylingen",
+    "slug": "teylingen",
+    "province": "Zuid-Holland",
+    "population": 37733,
+    "code": "GM1525",
+    "passengerCount": 175,
+    "freightCount": 0
+  },
+  {
+    "name": "Tholen",
+    "slug": "tholen",
+    "province": "Zeeland",
+    "population": 25758,
+    "code": "GM0716",
+    "passengerCount": 59,
+    "freightCount": 0
+  },
+  {
+    "name": "Tiel",
+    "slug": "tiel",
+    "province": "Gelderland",
+    "population": 42325,
+    "code": "GM0281",
+    "passengerCount": 167,
+    "freightCount": 1
+  },
+  {
+    "name": "Tilburg",
+    "slug": "tilburg",
+    "province": "Noord-Brabant",
+    "population": 224702,
+    "code": "GM0855",
+    "passengerCount": 910,
+    "freightCount": 0
+  },
+  {
+    "name": "Tubbergen",
+    "slug": "tubbergen",
+    "province": "Overijssel",
+    "population": 21279,
+    "code": "GM0183",
+    "passengerCount": 60,
+    "freightCount": 0
+  },
+  {
+    "name": "Twenterand",
+    "slug": "twenterand",
+    "province": "Overijssel",
+    "population": 33743,
+    "code": "GM1700",
+    "passengerCount": 99,
+    "freightCount": 3
+  },
+  {
+    "name": "Tynaarlo",
+    "slug": "tynaarlo",
+    "province": "Drenthe",
+    "population": 33879,
+    "code": "GM1730",
+    "passengerCount": 53,
+    "freightCount": 0
+  },
+  {
+    "name": "Tytsjerksteradiel",
+    "slug": "tytsjerksteradiel",
+    "province": "Friesland",
+    "population": 31857,
+    "code": "GM0737",
+    "passengerCount": 70,
+    "freightCount": 0
+  },
+  {
+    "name": "Uitgeest",
+    "slug": "uitgeest",
+    "province": "Noord-Holland",
+    "population": 13845,
+    "code": "GM0450",
+    "passengerCount": 88,
+    "freightCount": 0
+  },
+  {
+    "name": "Uithoorn",
+    "slug": "uithoorn",
+    "province": "Noord-Holland",
+    "population": 30138,
+    "code": "GM0451",
+    "passengerCount": 128,
+    "freightCount": 0
+  },
+  {
+    "name": "Urk",
+    "slug": "urk",
+    "province": "Flevoland",
+    "population": 21776,
+    "code": "GM0184",
+    "passengerCount": 61,
+    "freightCount": 0
+  },
+  {
+    "name": "Utrecht",
+    "slug": "utrecht",
+    "province": "Utrecht",
+    "population": 367984,
+    "code": "GM0344",
+    "passengerCount": 1335,
+    "freightCount": 2
+  },
+  {
+    "name": "Utrechtse Heuvelrug",
+    "slug": "utrechtse-heuvelrug",
+    "province": "Utrecht",
+    "population": 50226,
+    "code": "GM1581",
+    "passengerCount": 174,
+    "freightCount": 0
+  },
+  {
+    "name": "Vaals",
+    "slug": "vaals",
+    "province": "Limburg",
+    "population": 10099,
+    "code": "GM0981",
+    "passengerCount": 31,
+    "freightCount": 0
+  },
+  {
+    "name": "Valkenburg aan de Geul",
+    "slug": "valkenburg-aan-de-geul",
+    "province": "Limburg",
+    "population": 16360,
+    "code": "GM0994",
+    "passengerCount": 57,
+    "freightCount": 0
+  },
+  {
+    "name": "Valkenswaard",
+    "slug": "valkenswaard",
+    "province": "Noord-Brabant",
+    "population": 31385,
+    "code": "GM0858",
+    "passengerCount": 118,
+    "freightCount": 0
+  },
+  {
+    "name": "Veendam",
+    "slug": "veendam",
+    "province": "Groningen",
+    "population": 27387,
+    "code": "GM0047",
+    "passengerCount": 21,
+    "freightCount": 0
+  },
+  {
+    "name": "Veenendaal",
+    "slug": "veenendaal",
+    "province": "Utrecht",
+    "population": 67682,
+    "code": "GM0345",
+    "passengerCount": 277,
+    "freightCount": 0
+  },
+  {
+    "name": "Veere",
+    "slug": "veere",
+    "province": "Zeeland",
+    "population": 22000,
+    "code": "GM0717",
+    "passengerCount": 78,
+    "freightCount": 1
+  },
+  {
+    "name": "Veldhoven",
+    "slug": "veldhoven",
+    "province": "Noord-Brabant",
+    "population": 45779,
+    "code": "GM0861",
+    "passengerCount": 245,
+    "freightCount": 0
+  },
+  {
+    "name": "Velsen",
+    "slug": "velsen",
+    "province": "Noord-Holland",
+    "population": 68660,
+    "code": "GM0453",
+    "passengerCount": 259,
+    "freightCount": 0
+  },
+  {
+    "name": "Venlo",
+    "slug": "venlo",
+    "province": "Limburg",
+    "population": 101797,
+    "code": "GM0983",
+    "passengerCount": 398,
+    "freightCount": 4
+  },
+  {
+    "name": "Venray",
+    "slug": "venray",
+    "province": "Limburg",
+    "population": 43604,
+    "code": "GM0984",
+    "passengerCount": 177,
+    "freightCount": 0
+  },
+  {
+    "name": "Vijfheerenlanden",
+    "slug": "vijfheerenlanden",
+    "province": "Utrecht",
+    "population": 58488,
+    "code": "GM1961",
+    "passengerCount": 260,
+    "freightCount": 2
+  },
+  {
+    "name": "Vlaardingen",
+    "slug": "vlaardingen",
+    "province": "Zuid-Holland",
+    "population": 73798,
+    "code": "GM0622",
+    "passengerCount": 32,
+    "freightCount": 1
+  },
+  {
+    "name": "Vlieland",
+    "slug": "vlieland",
+    "province": "Friesland",
+    "population": 1152,
+    "code": "GM0096",
+    "passengerCount": 4,
+    "freightCount": 0
+  },
+  {
+    "name": "Vlissingen",
+    "slug": "vlissingen",
+    "province": "Zeeland",
+    "population": 44365,
+    "code": "GM0718",
+    "passengerCount": 37,
+    "freightCount": 0
+  },
+  {
+    "name": "Voerendaal",
+    "slug": "voerendaal",
+    "province": "Limburg",
+    "population": 12448,
+    "code": "GM0986",
+    "passengerCount": 35,
+    "freightCount": 0
+  },
+  {
+    "name": "Voorne aan Zee",
+    "slug": "voorne-aan-zee",
+    "province": "Zuid-Holland",
+    "population": 73311,
+    "code": "GM1992",
+    "passengerCount": 47,
+    "freightCount": 2
+  },
+  {
+    "name": "Voorschoten",
+    "slug": "voorschoten",
+    "province": "Zuid-Holland",
+    "population": 25873,
+    "code": "GM0626",
+    "passengerCount": 12,
+    "freightCount": 0
+  },
+  {
+    "name": "Voorst",
+    "slug": "voorst",
+    "province": "Gelderland",
+    "population": 24549,
+    "code": "GM0285",
+    "passengerCount": 106,
+    "freightCount": 0
+  },
+  {
+    "name": "Vught",
+    "slug": "vught",
+    "province": "Noord-Brabant",
+    "population": 26797,
+    "code": "GM0865",
+    "passengerCount": 201,
+    "freightCount": 0
+  },
+  {
+    "name": "Waadhoeke",
+    "slug": "waadhoeke",
+    "province": "Friesland",
+    "population": 46079,
+    "code": "GM1949",
+    "passengerCount": 92,
+    "freightCount": 0
+  },
+  {
+    "name": "Waalre",
+    "slug": "waalre",
+    "province": "Noord-Brabant",
+    "population": 17454,
+    "code": "GM0866",
+    "passengerCount": 64,
+    "freightCount": 0
+  },
+  {
+    "name": "Waalwijk",
+    "slug": "waalwijk",
+    "province": "Noord-Brabant",
+    "population": 48815,
+    "code": "GM0867",
+    "passengerCount": 254,
+    "freightCount": 1
+  },
+  {
+    "name": "Waddinxveen",
+    "slug": "waddinxveen",
+    "province": "Zuid-Holland",
+    "population": 29293,
+    "code": "GM0627",
+    "passengerCount": 92,
+    "freightCount": 2
+  },
+  {
+    "name": "Wageningen",
+    "slug": "wageningen",
+    "province": "Gelderland",
+    "population": 39673,
+    "code": "GM0289",
+    "passengerCount": 135,
+    "freightCount": 0
+  },
+  {
+    "name": "Wassenaar",
+    "slug": "wassenaar",
+    "province": "Zuid-Holland",
+    "population": 26305,
+    "code": "GM0629",
+    "passengerCount": 17,
+    "freightCount": 0
+  },
+  {
+    "name": "Waterland",
+    "slug": "waterland",
+    "province": "Noord-Holland",
+    "population": 17630,
+    "code": "GM0852",
+    "passengerCount": 76,
+    "freightCount": 0
+  },
+  {
+    "name": "Weert",
+    "slug": "weert",
+    "province": "Limburg",
+    "population": 50107,
+    "code": "GM0988",
+    "passengerCount": 160,
+    "freightCount": 1
+  },
+  {
+    "name": "West Betuwe",
+    "slug": "west-betuwe",
+    "province": "Gelderland",
+    "population": 51825,
+    "code": "GM1960",
+    "passengerCount": 254,
+    "freightCount": 4
+  },
+  {
+    "name": "West Maas en Waal",
+    "slug": "west-maas-en-waal",
+    "province": "Gelderland",
+    "population": 19459,
+    "code": "GM0668",
+    "passengerCount": 45,
+    "freightCount": 0
+  },
+  {
+    "name": "Westerkwartier",
+    "slug": "westerkwartier",
+    "province": "Groningen",
+    "population": 63773,
+    "code": "GM1969",
+    "passengerCount": 115,
+    "freightCount": 1
+  },
+  {
+    "name": "Westerveld",
+    "slug": "westerveld",
+    "province": "Drenthe",
+    "population": 19460,
+    "code": "GM1701",
+    "passengerCount": 68,
+    "freightCount": 0
+  },
+  {
+    "name": "Westervoort",
+    "slug": "westervoort",
+    "province": "Gelderland",
+    "population": 14973,
+    "code": "GM0293",
+    "passengerCount": 45,
+    "freightCount": 0
+  },
+  {
+    "name": "Westerwolde",
+    "slug": "westerwolde",
+    "province": "Groningen",
+    "population": 25796,
+    "code": "GM1950",
+    "passengerCount": 32,
+    "freightCount": 0
+  },
+  {
+    "name": "Westland",
+    "slug": "westland",
+    "province": "Zuid-Holland",
+    "population": 113120,
+    "code": "GM1783",
+    "passengerCount": 120,
+    "freightCount": 1
+  },
+  {
+    "name": "Weststellingwerf",
+    "slug": "weststellingwerf",
+    "province": "Friesland",
+    "population": 25753,
+    "code": "GM0098",
+    "passengerCount": 45,
+    "freightCount": 1
+  },
+  {
+    "name": "Wierden",
+    "slug": "wierden",
+    "province": "Overijssel",
+    "population": 24440,
+    "code": "GM0189",
+    "passengerCount": 102,
+    "freightCount": 0
+  },
+  {
+    "name": "Wijchen",
+    "slug": "wijchen",
+    "province": "Gelderland",
+    "population": 41329,
+    "code": "GM0296",
+    "passengerCount": 194,
+    "freightCount": 0
+  },
+  {
+    "name": "Wijdemeren",
+    "slug": "wijdemeren",
+    "province": "Noord-Holland",
+    "population": 24569,
+    "code": "GM1696",
+    "passengerCount": 123,
+    "freightCount": 0
+  },
+  {
+    "name": "Wijk bij Duurstede",
+    "slug": "wijk-bij-duurstede",
+    "province": "Utrecht",
+    "population": 24093,
+    "code": "GM0352",
+    "passengerCount": 18,
+    "freightCount": 0
+  },
+  {
+    "name": "Winterswijk",
+    "slug": "winterswijk",
+    "province": "Gelderland",
+    "population": 28603,
+    "code": "GM0294",
+    "passengerCount": 73,
+    "freightCount": 0
+  },
+  {
+    "name": "Woensdrecht",
+    "slug": "woensdrecht",
+    "province": "Noord-Brabant",
+    "population": 21883,
+    "code": "GM0873",
+    "passengerCount": 41,
+    "freightCount": 0
+  },
+  {
+    "name": "Woerden",
+    "slug": "woerden",
+    "province": "Utrecht",
+    "population": 53246,
+    "code": "GM0632",
+    "passengerCount": 147,
+    "freightCount": 2
+  },
+  {
+    "name": "Wormerland",
+    "slug": "wormerland",
+    "province": "Noord-Holland",
+    "population": 16384,
+    "code": "GM0880",
+    "passengerCount": 67,
+    "freightCount": 0
+  },
+  {
+    "name": "Woudenberg",
+    "slug": "woudenberg",
+    "province": "Utrecht",
+    "population": 13473,
+    "code": "GM0351",
+    "passengerCount": 14,
+    "freightCount": 1
+  },
+  {
+    "name": "Zaanstad",
+    "slug": "zaanstad",
+    "province": "Noord-Holland",
+    "population": 157945,
+    "code": "GM0479",
+    "passengerCount": 603,
+    "freightCount": 2
+  },
+  {
+    "name": "Zaltbommel",
+    "slug": "zaltbommel",
+    "province": "Gelderland",
+    "population": 28901,
+    "code": "GM0297",
+    "passengerCount": 89,
+    "freightCount": 1
+  },
+  {
+    "name": "Zandvoort",
+    "slug": "zandvoort",
+    "province": "Noord-Holland",
+    "population": 17116,
+    "code": "GM0473",
+    "passengerCount": 57,
+    "freightCount": 0
+  },
+  {
+    "name": "Zeewolde",
+    "slug": "zeewolde",
+    "province": "Flevoland",
+    "population": 22656,
+    "code": "GM0050",
+    "passengerCount": 125,
+    "freightCount": 1
+  },
+  {
+    "name": "Zeist",
+    "slug": "zeist",
+    "province": "Utrecht",
+    "population": 65948,
+    "code": "GM0355",
+    "passengerCount": 354,
+    "freightCount": 0
+  },
+  {
+    "name": "Zevenaar",
+    "slug": "zevenaar",
+    "province": "Gelderland",
+    "population": 43740,
+    "code": "GM0299",
+    "passengerCount": 133,
+    "freightCount": 1
+  },
+  {
+    "name": "Zoetermeer",
+    "slug": "zoetermeer",
+    "province": "Zuid-Holland",
+    "population": 126998,
+    "code": "GM0637",
+    "passengerCount": 88,
+    "freightCount": 3
+  },
+  {
+    "name": "Zoeterwoude",
+    "slug": "zoeterwoude",
+    "province": "Zuid-Holland",
+    "population": 8767,
+    "code": "GM0638",
+    "passengerCount": 23,
+    "freightCount": 0
+  },
+  {
+    "name": "Zuidplas",
+    "slug": "zuidplas",
+    "province": "Zuid-Holland",
+    "population": 44105,
+    "code": "GM1892",
+    "passengerCount": 104,
+    "freightCount": 2
+  },
+  {
+    "name": "Zundert",
+    "slug": "zundert",
+    "province": "Noord-Brabant",
+    "population": 22046,
+    "code": "GM0879",
+    "passengerCount": 68,
+    "freightCount": 0
+  },
+  {
+    "name": "Zutphen",
+    "slug": "zutphen",
+    "province": "Gelderland",
+    "population": 48111,
+    "code": "GM0301",
+    "passengerCount": 183,
+    "freightCount": 0
+  },
+  {
+    "name": "Zwartewaterland",
+    "slug": "zwartewaterland",
+    "province": "Overijssel",
+    "population": 23065,
+    "code": "GM1896",
+    "passengerCount": 99,
+    "freightCount": 0
+  },
+  {
+    "name": "Zwijndrecht",
+    "slug": "zwijndrecht",
+    "province": "Zuid-Holland",
+    "population": 44838,
+    "code": "GM0642",
+    "passengerCount": 142,
+    "freightCount": 0
+  },
+  {
+    "name": "Zwolle",
+    "slug": "zwolle",
+    "province": "Overijssel",
+    "population": 130592,
+    "code": "GM0193",
+    "passengerCount": 791,
+    "freightCount": 2
+  }
+]

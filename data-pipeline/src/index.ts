@@ -7,6 +7,7 @@ import { sanitizeId } from './slugify.js';
 import { curatedSource } from './sources/curated.js';
 import { eafoSource } from './sources/eafo.js';
 import { openChargeMapSource } from './sources/openChargeMap.js';
+import { fuelSource } from './sources/fuel.js';
 import { mergeFreight } from './sources/merge.js';
 import { resolveConnectorPrice } from './tariff.js';
 import type { FreightSource } from './sources/types.js';
@@ -19,7 +20,7 @@ import type {
   ClassificationMeta,
 } from './types.js';
 
-const EXTERNAL_SOURCES: FreightSource[] = [curatedSource, eafoSource, openChargeMapSource];
+const EXTERNAL_SOURCES: FreightSource[] = [curatedSource, eafoSource, openChargeMapSource, fuelSource];
 
 function enrich(
   loc: OCPILocation,
@@ -175,6 +176,9 @@ async function main() {
     priceKwh: f.priceKwh,
     freightKind: f.freightKind ?? 'dedicated',
     freightReason: f.freightReason ?? 'curated',
+    fuel: f.fuel,
+    fuelPostal: f.fuelPostal,
+    fuelUpdated: f.fuelUpdated,
   }));
 
   // 5. Boundaries.

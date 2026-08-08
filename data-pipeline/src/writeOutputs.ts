@@ -42,6 +42,9 @@ function pointFeature(l: LightLocation) {
       ...(l.priceKwh != null ? { priceKwh: l.priceKwh } : {}),
       ...(l.freightKind ? { freightKind: l.freightKind } : {}),
       ...(l.freightReason ? { freightReason: l.freightReason } : {}),
+      ...(l.fuel ? { fuel: l.fuel } : {}),
+      ...(l.fuelPostal ? { fuelPostal: l.fuelPostal } : {}),
+      ...(l.fuelUpdated ? { fuelUpdated: l.fuelUpdated } : {}),
     },
   };
 }

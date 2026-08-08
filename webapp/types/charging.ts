@@ -5,6 +5,8 @@ export type AggregateStatus = "AVAILABLE" | "CHARGING" | "UNAVAILABLE" | "UNKNOW
 // 'dedicated' = explicit truck facility (operator/naam/MCS/depot/curated);
 // 'hpc' = qualifies only on >=350 kW DC (truck-capable, not per se truck-toegankelijk).
 export type FreightKind = "dedicated" | "hpc";
+// Fuel types surfaced on the map (€/L).
+export type FuelType = "euro95" | "e10" | "plus98" | "super" | "diesel" | "lpg" | "cng";
 
 export interface Municipality {
   name: string;
@@ -31,6 +33,10 @@ export interface ChargeProperties {
   priceKwh?: number; // cheapest currently-applicable €/kWh at this location
   freightKind?: FreightKind;
   freightReason?: string;
+  // Fuel-specific payload (source === 'fuel'): full price map + metadata.
+  fuel?: Partial<Record<FuelType, number>>;
+  fuelPostal?: string;
+  fuelUpdated?: string;
 }
 
 export interface BoundaryProperties {
@@ -134,17 +140,21 @@ export type DetailBundle = Record<string, EnrichedLocation>;
 export interface Filters {
   showPassenger: boolean;
   showFreight: boolean;
+  showFuel: boolean;
   showBoundary: boolean;
   minPowerKw: number;
   colorByPrice: boolean; // color charge points by €/kWh instead of status
   dedicatedFreightOnly: boolean; // hide 'hpc' freight (power-only truck-capable sites)
+  fuelType: FuelType; // which fuel price to show/colour on fuel stations
 }
 
 export const DEFAULT_FILTERS: Filters = {
   showPassenger: true,
   showFreight: true,
+  showFuel: true,
   showBoundary: true,
   minPowerKw: 0,
   colorByPrice: false,
   dedicatedFreightOnly: false,
+  fuelType: "euro95",
 };

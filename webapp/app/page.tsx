@@ -86,7 +86,7 @@ export default function Home() {
   const tourSteps: TourStep[] = useMemo(
     () => [
       {
-        title: "Welkom bij Laadpalenviewer",
+        title: "Welkom bij EV Charging Price Viewer",
         body: (
           <>
             <p>Een korte rondleiding stuurt je langs alle onderdelen — de kaart beweegt mee.</p>
@@ -293,17 +293,22 @@ export default function Home() {
 
   // Counts shown in the filter panel: same power/kind filtering as the map layers,
   // so "the counts reflect the current view" actually holds.
-  const { passengerCount, freightCount } = useMemo(() => {
+  const { passengerCount, freightCount, fuelCount } = useMemo(() => {
     let p = 0;
     let f = 0;
+    let fu = 0;
     for (const feat of chargeFeatures) {
       if (feat.properties.maxPowerKw < filters.minPowerKw) continue;
+      if (feat.properties.source === "fuel") {
+        fu++;
+        continue;
+      }
       if (feat.properties.layer === "freight") {
         if (filters.dedicatedFreightOnly && feat.properties.freightKind === "hpc") continue;
         f++;
       } else p++;
     }
-    return { passengerCount: p, freightCount: f };
+    return { passengerCount: p, freightCount: f, fuelCount: fu };
   }, [chargeFeatures, filters.minPowerKw, filters.dedicatedFreightOnly]);
 
   const selectedDetail = selected ? details[selected.properties.locationId] ?? null : null;
@@ -334,7 +339,7 @@ export default function Home() {
       <header className="bg-white shadow-sm z-20">
         <div className="px-3 py-2 md:px-4 md:py-3 flex items-center gap-2 md:gap-4">
           <h1 className="text-lg md:text-xl font-bold text-gray-900 flex-shrink-0">
-            🔌 <span className="hidden sm:inline">Laadpalenviewer</span>
+            ⛽🔌 <span className="hidden sm:inline">EV Charging Price Viewer</span>
           </h1>
           <div className="flex-1 min-w-0 max-w-[200px] sm:max-w-xs md:max-w-md" data-tour="municipality">
             <MunicipalitySelector
@@ -408,6 +413,7 @@ export default function Home() {
             onChange={setFilters}
             passengerCount={passengerCount}
             freightCount={freightCount}
+            fuelCount={fuelCount}
           />
           {isNational && (
             <p className="text-xs text-gray-500 px-1">
@@ -468,7 +474,7 @@ export default function Home() {
           <button onClick={() => setShowAbout(true)} className="text-blue-600 hover:underline">
             Info over databronnen
           </button>
-          <span>Bronnen: NDW OCPI · PDOK/CBS · Open Charge Map</span>
+          <span>Bronnen: NDW OCPI · Brandstofprijzen.nl · PDOK/CBS · Open Charge Map</span>
         </div>
       </footer>
 

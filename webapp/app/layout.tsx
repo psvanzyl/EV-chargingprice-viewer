@@ -7,13 +7,13 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Laadpalenviewer - Laadpunten voor personenauto's en logistiek in Nederland",
+  title: "EV Charging Price Viewer - Laad- en brandstofprijzen in Nederland",
   description:
-    "Interactieve kaart van laadpunten in Nederland: personenauto-laadpunten (NDW OCPI) en logistieke/vracht-laadpunten (Milence, WattHub, megawatt charging) per gemeente, met gemeente- en provinciegrenzen van PDOK/CBS.",
+    "Interactieve kaart van actuele laadprijzen (€/kWh, NDW OCPI) en brandstofprijzen (€/L, Brandstofprijzen.nl) in Nederland, per gemeente, met gemeente- en provinciegrenzen van PDOK/CBS.",
   openGraph: {
-    title: "Laadpalenviewer",
+    title: "EV Charging Price Viewer",
     description:
-      "Laadpunten voor personenauto's en logistiek/vracht in Nederland op een interactieve kaart per gemeente.",
+      "Laadprijzen (€/kWh) en brandstofprijzen (€/L) in Nederland op een interactieve kaart per gemeente.",
     type: "website",
     locale: "nl_NL",
   },

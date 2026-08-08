@@ -1,6 +1,6 @@
 "use client";
 
-import { X, ExternalLink, Clock, Zap, MapPin, Building2, Truck } from "lucide-react";
+import { X, ExternalLink, Clock, Zap, MapPin, Building2, Truck, Fuel } from "lucide-react";
 import type { ChargeFeature, EnrichedConnector, EnrichedLocation } from "@/types/charging";
 import { formatConnectorStandard, formatPowerType, statusColorClass, statusLabel } from "@/lib/connectorLabels";
 import UsageChart from "@/components/UsageChart";
@@ -57,6 +57,7 @@ export default function LocationDetailPanel({ selected, detail, loading, slug, o
   if (!selected) return null;
   const p = selected.properties;
   const isFreight = p.layer === "freight";
+  const isFuel = p.source === "fuel";
 
   return (
     <div
@@ -69,11 +70,11 @@ export default function LocationDetailPanel({ selected, detail, loading, slug, o
             <div className="flex items-center gap-2">
               <span
                 className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-xs text-white ${
-                  isFreight ? "bg-amber-500" : "bg-blue-500"
+                  isFuel ? "bg-teal-500" : isFreight ? "bg-amber-500" : "bg-blue-500"
                 }`}
               >
-                {isFreight ? <Truck className="h-3 w-3" /> : <Zap className="h-3 w-3" />}
-                {isFreight ? (p.freightKind === "hpc" ? "Truck-capable" : "Truck") : "Personenauto"}
+                {isFuel ? <Fuel className="h-3 w-3" /> : isFreight ? <Truck className="h-3 w-3" /> : <Zap className="h-3 w-3" />}
+                {isFuel ? "Tankstation" : isFreight ? (p.freightKind === "hpc" ? "Truck-capable" : "Truck") : "Personenauto"}
               </span>
               {p.isMegawatt && (
                 <span className="px-1.5 py-0.5 rounded text-xs text-white bg-orange-600">Megawatt</span>
@@ -124,6 +125,29 @@ export default function LocationDetailPanel({ selected, detail, loading, slug, o
             <div className="text-xs text-gray-500 mt-1">Bron: {p.source.toUpperCase()}</div>
           </div>
         </div>
+
+        {/* Fuel prices */}
+        {isFuel && p.fuel && (
+          <div className="space-y-2">
+            <h4 className="font-medium text-sm text-gray-700 flex items-center gap-2">
+              <Fuel className="h-4 w-4" />
+              Brandstofprijzen (€/L)
+            </h4>
+            <div className="bg-gray-50 rounded p-3 text-sm space-y-1">
+              {Object.entries(p.fuel).map(([k, v]) => (
+                <div key={k} className="flex justify-between">
+                  <span className="text-gray-600 capitalize">{k}</span>
+                  <span className="font-medium tabular-nums">€ {v.toFixed(3)}</span>
+                </div>
+              ))}
+              {p.fuelUpdated && (
+                <div className="text-xs text-gray-400 pt-1 border-t border-gray-200">
+                  Bijgewerkt: {new Date(p.fuelUpdated).toLocaleString("nl-NL")}
+                </div>
+              )}
+            </div>
+          </div>
+        )}
 
         {/* Usage over time (gemeente view only; per-gemeente snapshot history) */}
         {slug && slug !== "nederland" && <UsageChart slug={slug} locationId={p.locationId} />}

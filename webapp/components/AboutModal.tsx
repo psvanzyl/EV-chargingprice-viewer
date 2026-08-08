@@ -26,7 +26,7 @@ export default function AboutModal({ isOpen, onClose, onStartTutorial }: Props) 
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center justify-between p-4 border-b sticky top-0 bg-white z-10">
-          <h2 className="text-lg font-semibold">Over Laadpalenviewer — uitleg &amp; methodologie</h2>
+          <h2 className="text-lg font-semibold">Over EV Charging Price Viewer — uitleg &amp; methodologie</h2>
           <button onClick={onClose} className="p-1 hover:bg-gray-100 rounded">
             <X className="h-5 w-5" />
           </button>
@@ -73,6 +73,10 @@ export default function AboutModal({ isOpen, onClose, onStartTutorial }: Props) 
               <li>
                 <strong>Open Charge Map</strong> + handmatig samengestelde truck-hubs (Milence, WattHub) — extra
                 vrachtlocaties.
+              </li>
+              <li>
+                <strong>Brandstofprijzen.nl</strong> — actuele brandstofprijzen (€/L) van Nederlandse tankstations,
+                crowdsourced. Locaties worden gegeocodeerd via OpenStreetMap/Nominatim.
               </li>
             </ul>
           </Section>
