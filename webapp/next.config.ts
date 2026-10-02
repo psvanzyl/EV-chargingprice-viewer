@@ -3,8 +3,13 @@ import type { NextConfig } from "next";
 // Basemap (CartoDB Positron via MapLibre) hosts used by the client.
 const MAP_TILE_HOSTS = "https://basemaps.cartocdn.com https://*.basemaps.cartocdn.com";
 
+// Optional sub-path deployment (e.g. /dashboards/ev-charging). Empty by default so
+// the standalone deployment at the domain root keeps working unchanged.
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const nextConfig: NextConfig = {
   compress: true,
+  ...(basePath ? { basePath } : {}),
 
   async headers() {
     const securityHeaders = [

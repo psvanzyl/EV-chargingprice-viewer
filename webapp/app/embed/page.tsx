@@ -14,6 +14,9 @@ const MapDeck = dynamic(() => import("@/components/MapDeck"), { ssr: false });
 
 const NL_BOUNDS: [number, number, number, number] = [3.31, 50.75, 7.21, 53.47];
 
+// Deployment sub-path (e.g. /dashboards/ev-charging); empty for standalone root deploys.
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 function EmbedInner() {
   const params = useSearchParams();
   const raw = params.get("gemeente");
@@ -29,14 +32,14 @@ function EmbedInner() {
     const load = async () => {
       if (slug === "nederland") {
         const [p, f] = (await Promise.all([
-          fetch("/data/nederland-passenger.geojson").then((r) => r.json()),
-          fetch("/data/nederland-freight.geojson").then((r) => r.json()),
+          fetch(`${BASE_PATH}/data/nederland-passenger.geojson`).then((r) => r.json()),
+          fetch(`${BASE_PATH}/data/nederland-freight.geojson`).then((r) => r.json()),
         ])) as CropoutData[];
         if (cancelled) return;
         setChargeFeatures([...(p.features as ChargeFeature[]), ...(f.features as ChargeFeature[])]);
         setBounds(NL_BOUNDS);
       } else {
-        const crop = (await fetch(`/data/gemeenten/${slug}.geojson`).then((r) => r.json())) as CropoutData;
+        const crop = (await fetch(`${BASE_PATH}/data/gemeenten/${slug}.geojson`).then((r) => r.json())) as CropoutData;
         if (cancelled) return;
         setChargeFeatures(crop.features.filter((f) => f.properties.type === "charge") as ChargeFeature[]);
         setBoundaryFeatures(crop.features.filter((f) => f.properties.type === "boundary") as BoundaryFeature[]);

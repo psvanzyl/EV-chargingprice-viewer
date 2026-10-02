@@ -36,6 +36,9 @@ const MapDeck = dynamic(() => import("@/components/MapDeck"), {
 const NL_BOUNDS: [number, number, number, number] = [3.31, 50.75, 7.21, 53.47];
 const DEFAULT_SLUG = "utrecht";
 
+// Deployment sub-path (e.g. /dashboards/ev-charging); empty for standalone root deploys.
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function Home() {
   const [municipalities, setMunicipalities] = useState<Municipality[]>([]);
   const [selectedMunicipality, setSelectedMunicipality] = useState<string>("");
@@ -59,7 +62,7 @@ export default function Home() {
 
   // Load the analysis choropleth dataset once.
   useEffect(() => {
-    fetch("/data/derived/gemeente-metrics.geojson")
+    fetch(`${BASE_PATH}/data/derived/gemeente-metrics.geojson`)
       .then((r) => (r.ok ? r.json() : null))
       .then((d: ChoroplethData | null) => d && setChoropleth(d))
       .catch(() => {});
@@ -193,7 +196,7 @@ export default function Home() {
 
   // Load municipalities once.
   useEffect(() => {
-    fetch("/municipalities.json")
+    fetch(`${BASE_PATH}/municipalities.json`)
       .then((r) => r.json())
       .then((data: Municipality[]) => {
         const sorted = data.sort((a, b) => {
@@ -237,9 +240,9 @@ export default function Home() {
     const load = async () => {
       if (selectedMunicipality === "nederland") {
         const [pRes, fRes, provRes] = await Promise.all([
-          fetch("/data/nederland-passenger.geojson"),
-          fetch("/data/nederland-freight.geojson"),
-          fetch("/data/provinces.geojson"),
+          fetch(`${BASE_PATH}/data/nederland-passenger.geojson`),
+          fetch(`${BASE_PATH}/data/nederland-freight.geojson`),
+          fetch(`${BASE_PATH}/data/provinces.geojson`),
         ]);
         const [p, f, prov] = (await Promise.all([pRes.json(), fRes.json(), provRes.json()])) as CropoutData[];
         if (cancelled) return;
@@ -253,9 +256,9 @@ export default function Home() {
         setGemeenteName("Nederland");
       } else {
         const [cropRes, detRes, statusRes] = await Promise.all([
-          fetch(`/data/gemeenten/${selectedMunicipality}.geojson`),
-          fetch(`/data/gemeenten/${selectedMunicipality}.details.json`),
-          fetch(`/data/status/${selectedMunicipality}.json`),
+          fetch(`${BASE_PATH}/data/gemeenten/${selectedMunicipality}.geojson`),
+          fetch(`${BASE_PATH}/data/gemeenten/${selectedMunicipality}.details.json`),
+          fetch(`${BASE_PATH}/data/status/${selectedMunicipality}.json`),
         ]);
         const crop = (await cropRes.json()) as CropoutData;
         const bundle = (await detRes.json()) as DetailBundle;
